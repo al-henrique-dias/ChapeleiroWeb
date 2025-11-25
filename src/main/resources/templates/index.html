@@ -3,36 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página inical</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <a href="/">
-            <figure>
-                <img src="" alt="Logo - O Senhor dos Chapéis">
-            </figure>
-        </a>
-        <div id="search-tool">
-            <!--search-tool-->
+        <a href="/"><figure class="logo">
+            <img src="" alt="Logo - O Senhor dos Chapéis" class="logo">
+        </figure></a>
+        <div id="search-box" class="search-box">
+            <span class="search-text">Buscar</span>
+            <img src="" alt="search-icon" class="search-icon">
         </div>
-        <nav>
-            <ul>
-                <a href=""><li><!--chip--></li></a>
-                <a><li><!--chip--></li></a>
-                <a><li><!--chip--></li></a>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul class="chip-box">
+            <a href=""><li class="chip"><span>item</span></li></a>
+            <a href=""><li class="chip"><span>item</span></li></a>
+            <a href=""><li class="chip"><span>item</span></li></a>
+            <a href=""><li class="chip"><span>item</span></li></a>
+            <a href=""><li class="chip"><span>item</span></li></a>
+            <a href=""><li class="chip"><span>item</span></li></a>
+            <a href=""><li class="chip"><span>item</span></li></a>
+            <a href=""><li class="chip"><span>item</span></li></a>
+            <a href=""><li class="chip"><span>item</span></li></a>
+        </ul>
+    </nav>
     <main>
-        <div id="carousel">
-            <!--carousel content-->
-        </div>
-        <a href=""><div id="card_a"></div></a>
-        <a href=""><div id="card_b"></div></a>
-        <a href=""><div id="card_c"></div></a>
+        <section class="carousel">
+            <div class="carousel-group">
+                <a href=""><figure class="carousel-item"><img src="" alt="item"></figure></a>
+                <a href=""><figure class="carousel-item"><img src="" alt="item"></figure></a>
+                <a href=""><figure class="carousel-item"><img src="" alt="item"></figure></a>
+            </div>
+            <div aria-hidden="true" class="carousel-group">
+                <a href=""><figure class="carousel-item"><img src="" alt="item"></figure></a>
+                <a href=""><figure class="carousel-item"><img src="" alt="item"></figure></a>
+                <a href=""><figure class="carousel-item"><img src="" alt="item"></figure></a>
+            </div>
+        </section>
+        <section class="cards">
+            <a href=""><figure class="card">
+                <img src="" alt="item" class="card-image">
+                <p class="card-description">chapéu</p>
+            </figure></a>
+            <a href=""><figure class="card">
+                <img src="" alt="item" class="card-image">
+                <p class="card-description">chapéu</p>
+            </figure></a>
+            <a href=""><figure class="card">
+                <img src="" alt="item" class="card-image">
+                <p class="card-description">chapéu</p>
+            </figure></a>
+            <a href=""><figure class="card">
+                <img src="" alt="item" class="card-image">
+                <p class="card-description">chapéu</p>
+            </figure></a>
+        </section>
+        <section class="cards">
+            <a href=""><figure class="card">
+                <img src="" alt="item" class="card-image">
+                <p class="card-description">chapéu</p>
+            </figure></a>
+            <a href=""><figure class="card">
+                <img src="" alt="item" class="card-image">
+                <p class="card-description">chapéu</p>
+            </figure></a>
+            <a href=""><figure class="card">
+                <img src="" alt="item" class="card-image">
+                <p class="card-description">chapéu</p>
+            </figure></a>
+        </section>
     </main>
     <footer>
-        <!--footer content-->
+        <a href="/"><figure class="logo">
+            <img src="" alt="Logo - O Senhor dos Chapéis" class="logo">
+        </figure></a>
+        <a href=""><span class="sobre-nos">Sobre nós</span></a>
     </footer>
 </body>
 </html>

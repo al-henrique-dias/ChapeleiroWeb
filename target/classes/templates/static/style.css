@@ -1,0 +1,296 @@
+/*
+    style.css
+    Greenish pastel UI using Grid for overall structure and Flexbox for alignment.
+    - The page uses a centered main column with left/right gutters that show the body background.
+    - Gutters smoothly collapse on small screens.
+    - Grid controls base layout and complex alignment; flex aligns inline pieces like nav, header, and card footers.
+*/
+
+/* Color palette (greenish pastel) */
+:root{
+    --bg: #eaf8f0;         /* page background */
+    --surface: #ffffff;    /* main surfaces (cards, panels) */
+    --muted-surface: #f3fbf6;
+    --primary-1: #bfead0;  /* light mint */
+    --primary-2: #9fe1b8;  /* mid mint */
+    --accent: #7fd09b;     /* accent green */
+    --text: #184935;       /* deep green for text */
+    --muted-text: #3f6b57; /* secondary text */
+    --glass: rgba(255,255,255,0.6);
+    --radius: 12px;
+    --gap: 1.25rem;
+    --shadow: 0 6px 18px rgba(16, 62, 40, 0.06);
+    --card-shadow: 0 8px 20px rgba(16,62,40,0.06);
+    --max-main: 1100px;
+}
+
+/* Base reset & typography */
+* { box-sizing: border-box; }
+html,body { height:100%; }
+body{
+    margin:0;
+    min-height:100%;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background:
+        radial-gradient(1200px 400px at 10% 10%, rgba(127,208,155,0.06), transparent 12%),
+        linear-gradient(180deg, var(--bg), #f6fff7 70%);
+    color:var(--text);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    line-height:1.45;
+    padding:2rem 0;
+}
+
+/* Page grid: gutters - main - gutters
+     Gutters use clamp so they can go to 0 on small screens (spacing disappears).
+     Main column is centered and constrained by max width.
+*/
+.page-grid{
+    display:grid;
+    grid-template-columns:
+        clamp(0rem, 4vw, 2.5rem)          /* left gutter (shows body background) */
+        minmax(320px, var(--max-main))    /* main content column */
+        clamp(0rem, 4vw, 2.5rem);         /* right gutter */
+    gap: 0;
+    justify-content:center;
+    align-items:start;
+    margin: 0 auto;
+}
+
+/* Example structure: header spans full main column */
+.header{
+    grid-column: 2 / 3;
+    padding: 0.5rem 0;
+}
+
+/* Header uses flex to align brand & nav */
+.header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1rem;
+    padding: 0.5rem 0;
+    background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0.45));
+    border-radius: calc(var(--radius) * 0.8);
+    box-shadow: var(--shadow);
+    padding: 0.6rem 1rem;
+    backdrop-filter: blur(6px) saturate(120%);
+}
+
+/* Brand */
+.brand{
+    display:flex;
+    align-items:center;
+    gap:0.75rem;
+    font-weight:700;
+    color:var(--text);
+}
+.brand .logo{
+    width:40px;
+    height:40px;
+    background: linear-gradient(135deg, var(--primary-1), var(--primary-2));
+    border-radius:10px;
+    display:inline-grid;
+    place-items:center;
+    color:white;
+    font-weight:700;
+    box-shadow: 0 6px 12px rgba(144,208,164,0.12);
+}
+
+/* Nav (flex) */
+.nav{
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+}
+.nav .nav-links{
+    display:flex;
+    gap:0.5rem;
+    align-items:center;
+}
+.nav a{
+    text-decoration:none;
+    color:var(--muted-text);
+    padding:0.45rem 0.75rem;
+    border-radius:8px;
+    transition:all 180ms ease;
+    font-weight:600;
+    font-size:0.95rem;
+}
+.nav a:hover{
+    color:var(--text);
+    background: linear-gradient(90deg, rgba(159,225,184,0.24), rgba(127,208,155,0.12));
+}
+
+/* Main content area */
+main{
+    grid-column: 2 / 3;
+    margin-top: 1rem;
+    display:block;
+}
+
+/* Inner main card to reveal gutters around it */
+.main-card{
+    background: linear-gradient(180deg, var(--surface), var(--muted-surface));
+    border-radius: var(--radius);
+    padding: clamp(1rem, 2.6vw, 2rem);
+    box-shadow: var(--card-shadow);
+    min-height: 60vh;
+    overflow:hidden;
+}
+
+/* Use grid inside main for complex alignment: hero + two-column area */
+.main-grid{
+    display:grid;
+    grid-template-columns: 1fr 320px;
+    gap: 1.25rem;
+    align-items:start;
+}
+
+/* Hero (left column top) */
+.hero{
+    background: linear-gradient(180deg, rgba(159,225,184,0.12), rgba(127,208,155,0.06));
+    border-radius: calc(var(--radius) - 4px);
+    padding: 1rem;
+    display:flex;
+    flex-direction:column;
+    gap:0.75rem;
+}
+.hero h1{
+    margin:0;
+    font-size: clamp(1.4rem, 2.6vw, 2rem);
+    color:var(--text);
+}
+.hero p{
+    margin:0;
+    color:var(--muted-text);
+}
+
+/* Cards grid inside left column (complex alignment using grid) */
+.cards{
+    margin-top:1rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap:0.9rem;
+}
+.card{
+    background: linear-gradient(180deg, white, #fbfff9);
+    border-radius: 10px;
+    padding:0.8rem;
+    box-shadow: 0 6px 14px rgba(18,54,34,0.04);
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+    border: 1px solid rgba(30,80,56,0.04);
+}
+.card .title{
+    font-weight:700;
+    color:var(--text);
+    font-size:0.95rem;
+}
+.card .meta{
+    font-size:0.85rem;
+    color:var(--muted-text);
+    margin-top:auto;
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+}
+
+/* Right column (aside) */
+.aside{
+    background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.5));
+    border-radius: 10px;
+    padding:0.75rem;
+    display:flex;
+    flex-direction:column;
+    gap:0.75rem;
+    align-items:stretch;
+}
+.aside .widget{
+    background:var(--glass);
+    border-radius:8px;
+    padding:0.6rem;
+    display:flex;
+    gap:0.5rem;
+    align-items:center;
+}
+
+/* Footer */
+.footer{
+    grid-column: 2 / 3;
+    margin-top: 1rem;
+}
+.footer-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0.8rem 1rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.7), rgba(255,255,255,0.5));
+    color:var(--muted-text);
+    font-size:0.9rem;
+}
+
+/* Buttons */
+.btn{
+    display:inline-flex;
+    align-items:center;
+    gap:0.5rem;
+    padding:0.5rem 0.8rem;
+    border-radius:10px;
+    background: linear-gradient(180deg, var(--primary-1), var(--primary-2));
+    color: #053523;
+    font-weight:700;
+    border:none;
+    cursor:pointer;
+    box-shadow: 0 6px 12px rgba(127,208,155,0.12);
+}
+.btn-ghost{
+    background: transparent;
+    border: 1px solid rgba(30,80,56,0.06);
+    color:var(--muted-text);
+}
+
+/* Responsive behavior
+     - Gutters collapse to zero on small screens so the main uses full width.
+     - Main grid stacks to a single column on small screens.
+*/
+@media (max-width: 880px){
+    .page-grid{
+        grid-template-columns: clamp(0rem, 2vw, 1rem) minmax(300px, calc(100% - 2rem)) clamp(0rem, 2vw, 1rem);
+    }
+    .main-grid{
+        grid-template-columns: 1fr;
+    }
+    .hero{ order: 0; }
+    .aside{ order: 1; }
+}
+
+@media (max-width: 520px){
+    body{ padding:1rem 0; }
+    .page-grid{
+        grid-template-columns: 0 1fr 0; /* gutters disappear entirely */
+        padding:0;
+    }
+    .header-inner{ padding:0.5rem; }
+    .nav a{ padding:0.4rem 0.5rem; font-size:0.9rem; }
+    .cards{ grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+    .footer-inner{ flex-direction:column; gap:0.5rem; align-items:flex-start; }
+}
+
+/* Small utility helpers */
+.strip{
+    height:6px;
+    border-radius:8px;
+    background: linear-gradient(90deg,var(--primary-2),var(--accent));
+    box-shadow: 0 6px 18px rgba(127,208,155,0.08);
+    width:100%;
+}
+
+/* Focus outlines for accessibility */
+a:focus, button:focus, .btn:focus {
+    outline: 3px solid rgba(127,208,155,0.22);
+    outline-offset: 3px;
+    border-radius: 8px;
+}
