@@ -3,51 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inical</title>
+    <title>O Senhor dos Chapéis</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header>
-        <a href="/">
-            <figure>
-                <img src="" alt="Logo - O Senhor dos Chapéis">
-            </figure>
-        </a>
-        <nav>
-            <div id="search-tool" class="search-tool">
-                <span>Buscar</span>
-                <img src="" alt="search-icon"
-            </div>
-            <br>
-            <ul>
-                <a href=""><li><!--chip--></li></a>
-                <a><li><!--chip--></li></a>
-                <a><li><!--chip--></li></a>
-            </ul>
-        </nav>
+        <figure class="logo">
+            <a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+        </figure>
+        <form method="get" class="search-box">
+            <input name="search" type="text" placeholder="buscar" id="search-box" class="search-box"></input>
+            <button type="submit">
+                <img src="/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+            </button>
+        </form>
     </header>
-    <br>
-    <main>
-        <section id="carousel" class="carousel">
-            <a><div class="carousel-item"><img src="" alt=""></div></a>
-            <a><div class="carousel-item"><img src="" alt=""></div></a>
-            <a><div class="carousel-item"><img src="" alt=""></div></a>
-            <a><div id="carousel-nav" class="carousel-nav">
-                <span class="carousel-button"></span>
-                <span class="carousel-button"></span>
-                <span class="carousel-button"></span>
+    <nav>
+        <ul class="chip-box">
+            <a href="/busca?categoria=formais"><li class="chip"><span>Formais</span></li></a>
+            <a href="/busca?categoria=formais"><li class="chip"><span>Casuais</span></li></a>
+            <a href="/busca?categoria=esportivos"><li class="chip"><span>Esportivos</span></li></a>
+            <a href="/busca?categoria=tradicionais"><li class="chip"><span>Tradicionais</span></li></a>
+            <a href="/busca?categoria=profissionais"><li class="chip"><span>Profissionais</span></li></a>
+            <a href="/busca?categoria=tematicos"><li class="chip"><span>Temáticos</span></li></a>
+            <a href="/busca?categoria=femininos"><li class="chip"><span>Femininos</span></li></a>
+            <a href="/busca?categoria=masculinos"><li class="chip"><span>Masculinos</span></li></a>
+            <a href="/busca?categoria=outros"><li class="chip"><span>Outros</span></li></a>
+        </ul>
+    </nav>
+    <main class="index-main">
+        <section class="carousel">
+            <div class="carousel-group">
+                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
+            </div>
+            <div aria-hidden="true" class="carousel-group">
+                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
+            </div>
+            <div aria-hidden="true" class="carousel-group">
+                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
             </div>
         </section>
-        <br>
-        <section id="cards" class="cards">
-            <a href=""><div id="card_a"></div></a>
-            <a href=""><div id="card_b"></div></a>
-            <a href=""><div id="card_c"></div></a>
+        <section class="card-box">
+            <a href="/produto"><picture class="card">
+                <img src="/images/card-placeholder.png" alt="Chapéu 1">
+                <div class="card-title">Chapéu Fedora</div>
+                <div class="card-description">Clássico, elegante, cor preta</div>
+                <div class="card-meta">Categoria: Formais</div>
+            </picture></a>
+            <a href="/produto"><picture class="card">
+                <img src="/images/card-placeholder.png" alt="Chapéu 2">
+                <div class="card-title">Chapéu Panamá</div>
+                <div class="card-description">Casual, leve, cor branca</div>
+                <div class="card-meta">Categoria: Casuais</div>
+            </picture></a>
+            <a href="/produto"><picture class="card">
+                <img src="/images/card-placeholder.png" alt="Chapéu 3">
+                <div class="card-title">Chapéu Bucket</div>
+                <div class="card-description">Esportivo, resistente, cor azul</div>
+                <div class="card-meta">Categoria: Esportivos</div>
+                </picture></a>
+            <a href="/produto"><picture class="card">
+                <img src="/images/card-placeholder.png" alt="Chapéu 4">
+                <div class="card-title">Chapéu Côco</div>
+                <div class="card-description">Tradicional, rígido, cor marrom</div>
+                <div class="card-meta">Categoria: Tradicionais</div>
+            </picture></a>
+        </section>
+        <section class="card-box">
+            <a href="/produto"><picture class="card">
+                <img src="/images/card-placeholder.png" alt="Chapéu 5">
+                <div class="card-title">Chapéu Chef</div>
+                <div class="card-description">Profissional, alto, cor branca</div>
+                <div class="card-meta">Categoria: Profissionais</div>
+            </picture></a>
+            <a href="/produto"><picture class="card">
+                <img src="/images/card-placeholder.png" alt="Chapéu 6">
+                <div class="card-title">Chapéu de Bruxa</div>
+                <div class="card-description">Temático, divertido, cor preta</div>
+                <div class="card-meta">Categoria: Temáticos</div>
+            </picture></a>
+            <a href="/produto"><picture class="card">
+                <img src="/images/card-placeholder.png" alt="Chapéu 7">
+                <div class="card-title">Chapéu Cloche</div>
+                <div class="card-description">Feminino, vintage, cor vermelha</div>
+                <div class="card-meta">Categoria: Femininos</div>
+            </picture></a>
         </section>
     </main>
-    <br>
     <footer>
-        <!--footer content-->
+        <figure class="logo">
+            <a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+        </figure>
+        <a href="/sobre-nos"><span class="sobre-nos">Sobre nós</span></a>
     </footer>
 </body>
 </html>
