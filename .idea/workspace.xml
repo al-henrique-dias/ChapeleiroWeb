@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3b708ad-f732-4c1f-8780-378962fb79ce" name="Changes" comment="🔨 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas." />
+    <list default="true" id="c3b708ad-f732-4c1f-8780-378962fb79ce" name="Changes" comment="🔨 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-colecao-aventura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-colecao-inverno.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-colecao-verao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/colecao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/colecao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sobre-nos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sobre-nos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +66,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Henrique",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/templates",
+    "last_opened_file_path": "C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/static/images",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -62,9 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\static\images" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\static\images" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\templates" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\java\br\ufms\facom\progweb\chapeleiroweb\view" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\.idea" />
@@ -110,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764128436600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="🔨 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.">
+      <option name="closed" value="true" />
+      <created>1764128678099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764128678099</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
