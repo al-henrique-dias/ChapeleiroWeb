@@ -1,0 +1,88 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c3b708ad-f732-4c1f-8780-378962fb79ce\" name=\"Changes\" comment=\"\uD83D\uDD28 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"al-henrique-dias\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/al-henrique-dias/ChapeleiroWeb.git\",\r\n    \"accountId\": \"96fa54ed-84e1-47cb-938c-79bf3fe20469\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"35AvsqoNQ6Bn5IcDPWP5vMYwlOu\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.ChapeleirowebApplication.executor\": \"Run\",\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"Henrique\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/templates\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"MavenSettings\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\\src\\main\\resources\\templates\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\\src\\main\\resources\\templates\" />\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\\src\\main\\java\\br\\ufms\\facom\\progweb\\chapeleiroweb\\view\" />\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\\.idea\" />\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c3b708ad-f732-4c1f-8780-378962fb79ce\" name=\"Changes\" comment=\"\" />\r\n      <created>1762565902826</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1762565902826</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"\uD83D\uDD27 Atualização de diretório/arquivo - Uso oficial do CSS do static resources\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1764124855793</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1764124855793</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"\uD83D\uDD27 Atualização de diretório/arquivo - Uso oficial do CSS do static resources\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1764124972316</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1764124972316</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"\uD83D\uDD28 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1764128436600</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1764128436600</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\" Atualização de diretório/arquivo - Uso oficial do CSS do static resources\" />\r\n    <MESSAGE value=\" Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\" Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/.idea/workspace.xml	(date 1764132989304)
+@@ -19,19 +19,20 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="RESET_MODE" value="HARD" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "al-henrique-dias"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;al-henrique-dias&quot;
+   }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/al-henrique-dias/ChapeleiroWeb.git",
+-    "accountId": "96fa54ed-84e1-47cb-938c-79bf3fe20469"
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/al-henrique-dias/ChapeleiroWeb.git&quot;,
++    &quot;accountId&quot;: &quot;96fa54ed-84e1-47cb-938c-79bf3fe20469&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="ProblemsViewState">
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+@@ -39,27 +40,30 @@
+   &quot;associatedIndex&quot;: 3
+ }</component>
+   <component name="ProjectId" id="35AvsqoNQ6Bn5IcDPWP5vMYwlOu" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.ChapeleirowebApplication.executor": "Run",
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "Henrique",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/templates",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "MavenSettings"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.ChapeleirowebApplication.executor&quot;: &quot;Run&quot;,
++    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;Henrique&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/templates&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\templates" />

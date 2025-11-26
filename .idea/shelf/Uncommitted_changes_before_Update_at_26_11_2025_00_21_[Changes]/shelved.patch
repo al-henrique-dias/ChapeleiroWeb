@@ -1,0 +1,818 @@
+Index: src/main/resources/templates/sobre-nos.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"pt-br\">\r\n    <head>\r\n        <meta charset=\"UTF-8\" />\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n        <title>Sobre Nós - O Senhor dos Chapéis</title>\r\n        <link rel=\"stylesheet\" href=\"/style.css\" />\r\n    </head>\r\n    <body>\r\n        <header>\r\n            <figure class=\"logo\">\r\n                <a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n            </figure>\r\n            <form method=\"get\" class=\"search-box\">\r\n                <input name=\"search\" type=\"text\" placeholder=\"buscar\" id=\"search-box\" class=\"search-box\">\r\n                <button type=\"submit\">\r\n                    <img src=\"/images/lupa.png\" alt=\"search-icon\" class=\"search-icon\" height=\"32px\" width=\"32px\">\r\n                </button>\r\n            </form>\r\n        </header>\r\n\r\n        <!-- MAIN: Conteúdo principal da página \"Sobre Nós\" -->\r\n        <main\r\n            class=\"about-main\"\r\n            style=\"max-width: 900px; margin: 2rem auto; padding: 0 1rem\"\r\n        >\r\n            <!-- Título principal usando tag semântica h1 -->\r\n            <h1\r\n                style=\"\r\n                    font-size: 2.5rem;\r\n                    color: #2e4637;\r\n                    border-bottom: 2px solid #5a8d6e;\r\n                    padding-bottom: 0.5rem;\r\n                    margin-bottom: 2rem;\r\n                \"\r\n            >\r\n                Sobre O Senhor dos Chapéis\r\n            </h1>\r\n\r\n            <!-- SECTION: Missão e Visão - Usando tags semânticas section e article -->\r\n            <section\r\n                class=\"mission-vision\"\r\n                style=\"\r\n                    margin-bottom: 3rem;\r\n                    display: grid;\r\n                    grid-template-columns: 1fr;\r\n                    gap: 2rem;\r\n                \"\r\n            >\r\n                <article class=\"mission\">\r\n                    <h2\r\n                        style=\"\r\n                            font-size: 1.75rem;\r\n                            color: #5a8d6e;\r\n                            margin-bottom: 1rem;\r\n                        \"\r\n                    >\r\n                        Nossa Missão\r\n                    </h2>\r\n                    <p style=\"line-height: 1.6\">\r\n                        Nossa missão é ser a principal ponte entre os amantes de\r\n                        chapéus e os melhores artesãos e revendedores do Brasil.\r\n                        Acreditamos que um chapéu é mais do que um acessório; é\r\n                        uma extensão da personalidade, uma peça de história e um\r\n                        item de estilo atemporal. Conectamos você à peça\r\n                        perfeita que conta a sua história.\r\n                    </p>\r\n                </article>\r\n\r\n                <article class=\"vision\">\r\n                    <h2\r\n                        style=\"\r\n                            font-size: 1.75rem;\r\n                            color: #5a8d6e;\r\n                            margin-bottom: 1rem;\r\n                        \"\r\n                    >\r\n                        Nossa Visão\r\n                    </h2>\r\n                    <p style=\"line-height: 1.6\">\r\n                        Visualizamos um futuro onde a tradição e a inovação se\r\n                        encontram na cabeça de cada brasileiro. Queremos\r\n                        democratizar o acesso a chapéus de alta qualidade, de\r\n                        fedoras clássicos a modelos modernos e exclusivos,\r\n                        promovendo a cultura do chapéu em todas as suas formas.\r\n                    </p>\r\n                </article>\r\n            </section>\r\n\r\n            <!-- ARTICLE: História - Usando a tag article para um bloco de conteúdo auto-contido -->\r\n            <article class=\"history\" style=\"margin-bottom: 3rem\">\r\n                <h2\r\n                    style=\"\r\n                        font-size: 1.75rem;\r\n                        color: #5a8d6e;\r\n                        margin-bottom: 1.5rem;\r\n                        border-top: 1px dashed #ccc;\r\n                        padding-top: 1.5rem;\r\n                    \"\r\n                >\r\n                    Nossa História\r\n                </h2>\r\n                <p style=\"line-height: 1.6; margin-bottom: 1rem\">\r\n                    Tudo começou com uma paixão por chapelaria em 2024.\r\n                    Percebemos a dificuldade de encontrar um catálogo\r\n                    centralizado de revendedores e modelos de chapéus artesanais\r\n                    e de grife no país. \"O Senhor dos Chapéis\" nasceu para\r\n                    resolver esse problema, transformando-se em um marketplace\r\n                    dedicado a celebrar a arte de cobrir a cabeça.\r\n                </p>\r\n                <p style=\"line-height: 1.6\">\r\n                    Desde então, crescemos e expandimos nossa rede, mas o nosso\r\n                    compromisso continua o mesmo: qualidade, autenticidade e\r\n                    paixão por chapéus.\r\n                </p>\r\n            </article>\r\n\r\n            <!-- ASIDE: Foco em Valores - Bloco lateral (ou de destaque) usando a tag semântica aside -->\r\n            <aside\r\n                class=\"values\"\r\n                style=\"\r\n                    background-color: #f7f7f7;\r\n                    padding: 2rem;\r\n                    border-radius: 8px;\r\n                    border-left: 5px solid #2e4637;\r\n                \"\r\n            >\r\n                <h2\r\n                    style=\"\r\n                        font-size: 1.5rem;\r\n                        color: #2e4637;\r\n                        margin-bottom: 1rem;\r\n                    \"\r\n                >\r\n                    Nossos Valores Fundamentais\r\n                </h2>\r\n                <ul style=\"list-style-type: none; padding-left: 0\">\r\n                    <li style=\"margin-bottom: 0.5rem\">\r\n                        <strong style=\"color: #5a8d6e\">Autenticidade:</strong>\r\n                        Valorizamos o trabalho artesanal e a originalidade de\r\n                        cada peça.\r\n                    </li>\r\n                    <li style=\"margin-bottom: 0.5rem\">\r\n                        <strong style=\"color: #5a8d6e\">Conexão:</strong>\r\n                        Facilitamos a união entre produtores e consumidores.\r\n                    </li>\r\n                    <li style=\"margin-bottom: 0.5rem\">\r\n                        <strong style=\"color: #5a8d6e\">Qualidade:</strong>\r\n                        Oferecemos apenas produtos que atendem aos mais altos\r\n                        padrões.\r\n                    </li>\r\n                </ul>\r\n            </aside>\r\n        </main>\r\n\r\n        <!-- FOOTER: Estrutura idêntica às outras páginas -->\r\n        <footer>\r\n            <figure class=\"logo\">\r\n                <a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n            </figure>\r\n            <a href=\"/sobre-nos\"><span class=\"sobre-nos\">Sobre nós</span></a>\r\n        </footer>\r\n    </body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/sobre-nos.html b/src/main/resources/templates/sobre-nos.html
+--- a/src/main/resources/templates/sobre-nos.html	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/src/main/resources/templates/sobre-nos.html	(date 1764130355202)
+@@ -11,7 +11,7 @@
+             <figure class="logo">
+                 <a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+             </figure>
+-            <form method="get" class="search-box">
++            <form action="/busca" method="get" target="_self" class="search-box">
+                 <input name="search" type="text" placeholder="buscar" id="search-box" class="search-box">
+                 <button type="submit">
+                     <img src="/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+Index: src/main/resources/templates/product.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Chapéu</title>\r\n    <link rel=\"stylesheet\" href=\"/style.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <figure class=\"logo\">\r\n            <a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n        </figure>\r\n        <form method=\"get\" class=\"search-box\">\r\n            <input name=\"search\" type=\"text\" placeholder=\"buscar\" id=\"search-box\" class=\"search-box\"></input>\r\n            <button type=\"submit\">\r\n                <img src=\"/images/lupa.png\" alt=\"search-icon\" class=\"search-icon\" height=\"32px\" width=\"32px\">\r\n            </button>\r\n        </form>\r\n    </header>\r\n    <main class=\"product-main\">\r\n        <div class=\"product-info\">\r\n            <section class=\"product-gallery\">\r\n                <button id=\"previousButton\"><img src=\"/images/previous.png\" height=\"16px\" width=\"16px\"></button>\r\n                <div id=\"product-display\" class=\"product-display\">\r\n                    <div class=\"product-group\">\r\n                        <figure class=\"product-image\"><img src=\"/images/previous.png\" alt=\"product-image\"></figure>\r\n                    </div>\r\n                    <div aria-hidden=\"true\" class=\"product-group\">\r\n                        <figure class=\"product-image\"><img src=\"/images/next.png\" alt=\"product-image\"></figure>\r\n                    </div>\r\n                    <div aria-hidden=\"true\" class=\"product-group\">\r\n                        <figure class=\"product-image\"><img src=\"/images/lupa.png\" alt=\"product-image\"></figure>\r\n                    </div>\r\n                </div>\r\n                <button id=\"nextButton\"><img src=\"/images/next.png\" height=\"16px\" width=\"16px\"></button>\r\n            </section>\r\n            <section class=\"product-description\">\r\n                <h1>Produto</h1>\r\n                <p>Descrição...</p>\r\n            </section>\r\n        </div>\r\n        <div class=\"product-sellers\">\r\n            <h1>Revendedores</h1>\r\n            <section class=\"card-box\">\r\n                <a href=\"#\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"item\">\r\n                    <p class=\"card-description\">chapéu</p>\r\n                </picture></a>\r\n                <a href=\"#\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"item\">\r\n                    <p class=\"card-description\">chapéu</p>\r\n                </picture></a>\r\n                <a href=\"#\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"item\">\r\n                    <p class=\"card-description\">chapéu</p>\r\n                </picture></a>\r\n            </section>\r\n        </div>\r\n    </main>\r\n    <footer>\r\n        <figure class=\"logo\">\r\n            <a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n        </figure>\r\n        <a href=\"/sobre-nos\"><span class=\"sobre-nos\">Sobre nós</span></a>\r\n    </footer>\r\n    <script>\r\n        let productScroll = document.getElementById(\"product-display\");\r\n        let previousButton = document.getElementById(\"previousButton\");\r\n        let nextButton = document.getElementById(\"nextButton\");\r\n\r\n        previousButton.addEventListener(\"click\", ()=>{\r\n            productScroll.scrollLeft -= 512;\r\n        });\r\n        nextButton.addEventListener(\"click\", ()=>{\r\n            productScroll.scrollLeft += 512;\r\n        });\r\n    </script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/product.html b/src/main/resources/templates/product.html
+--- a/src/main/resources/templates/product.html	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/src/main/resources/templates/product.html	(date 1764130355234)
+@@ -11,7 +11,7 @@
+         <figure class="logo">
+             <a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+         </figure>
+-        <form method="get" class="search-box">
++        <form action="/busca" method="get" target="_self" class="search-box">
+             <input name="search" type="text" placeholder="buscar" id="search-box" class="search-box"></input>
+             <button type="submit">
+                 <img src="/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+Index: src/main/resources/templates/colecao.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"pt-br\">\r\n    <head>\r\n        <meta charset=\"UTF-8\" />\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n        <title>Coleção de Verão - O Senhor dos Chapéis</title>\r\n        <link rel=\"stylesheet\" href=\"/style.css\"/>\r\n    </head>\r\n    <body>\r\n        <header>\r\n            <figure class=\"logo\">\r\n                <a href=\"/\"\r\n                    ><img\r\n                        src=\"/images/logo.png\"\r\n                        alt=\"Logo - O Senhor dos Chapéis\"\r\n                /></a>\r\n            </figure>\r\n            <form method=\"get\" class=\"search-box\">\r\n                <input\r\n                    name=\"search\"\r\n                    type=\"text\"\r\n                    placeholder=\"buscar\"\r\n                    id=\"search-box\"\r\n                    class=\"search-box\"\r\n                />\r\n                <button type=\"submit\">\r\n                    <img\r\n                        src=\"/images/lupa.png\"\r\n                        alt=\"search-icon\"\r\n                        class=\"search-icon\"\r\n                        height=\"32px\"\r\n                        width=\"32px\"\r\n                    />\r\n                </button>\r\n            </form>\r\n        </header>\r\n\r\n        <!-- MAIN: Conteúdo principal da coleção -->\r\n        <main class=\"collection-main\">\r\n            <!-- Banner de Propaganda da Coleção -->\r\n            <figure\r\n                class=\"collection-banner\"\r\n                style=\"\r\n                    margin-bottom: 2rem;\r\n                    overflow: hidden;\r\n                    border-radius: 8px;\r\n                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\r\n                \"\r\n            >\r\n                <!-- Placeholder para a imagem do banner. Use uma imagem com foco em praia, sol, etc. -->\r\n                <img\r\n                    src=\"https://placehold.co/1200x300/e6e6fa/333333?text=Cole%C3%A7%C3%A3o+Ver%C3%A3o+2026\"\r\n                    alt=\"Banner de propaganda da Coleção de Verão\"\r\n                    style=\"width: 100%; height: auto; display: block\"\r\n                />\r\n                <figcaption style=\"display: none\">\r\n                    Chapéus de Verão: Estilo e Proteção ao Sol.\r\n                </figcaption>\r\n            </figure>\r\n\r\n            <!-- Título da Coleção -->\r\n            <h1\r\n                style=\"\r\n                    text-align: center;\r\n                    font-size: 3rem;\r\n                    color: #ff6347;\r\n                    margin-bottom: 1.5rem;\r\n                    text-transform: uppercase;\r\n                    letter-spacing: 2px;\r\n                \"\r\n            >\r\n                Coleção de Verão\r\n            </h1>\r\n\r\n            <!-- Descrição da Coleção (opcional, mas bom para contexto) -->\r\n            <p\r\n                style=\"\r\n                    text-align: center;\r\n                    max-width: 800px;\r\n                    margin: 0 auto 3rem;\r\n                    color: #555;\r\n                \"\r\n            >\r\n                Descubra a nossa seleção de chapéus leves, arejados e cheios de\r\n                estilo para os dias ensolarados. De palha elegante a tecidos\r\n                casuais, encontre o par perfeito para a sua próxima aventura de\r\n                verão.\r\n            </p>\r\n\r\n            <!-- SECTION: Catálogo de Chapéus de Verão -->\r\n            <section\r\n                class=\"card-box\"\r\n                style=\"\r\n                    display: grid;\r\n                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\r\n                    gap: 20px;\r\n                    padding: 1rem;\r\n                \"\r\n            >\r\n                <!-- Cartão 1: Chapéu Panamá (clássico de verão) -->\r\n                <a\r\n                    href=\"/produto\"\r\n                    style=\"text-decoration: none; color: inherit\"\r\n                >\r\n                    <picture\r\n                        class=\"card\"\r\n                        style=\"\r\n                            border: 1px solid #ddd;\r\n                            border-radius: 8px;\r\n                            overflow: hidden;\r\n                            transition: transform 0.3s ease;\r\n                        \"\r\n                    >\r\n                        <img\r\n                            src=\"https://placehold.co/300x300/ffe4b5/333333?text=Panam%C3%A1\"\r\n                            alt=\"Chapéu Panamá de Palha\"\r\n                            style=\"width: 100%; height: auto\"\r\n                        />\r\n                        <div style=\"padding: 15px; text-align: center\">\r\n                            <div\r\n                                class=\"card-title\"\r\n                                style=\"\r\n                                    font-weight: bold;\r\n                                    font-size: 1.1em;\r\n                                    color: #333;\r\n                                \"\r\n                            >\r\n                                Chapéu Panamá Clássico\r\n                            </div>\r\n                            <div\r\n                                class=\"card-description\"\r\n                                style=\"color: #666; font-size: 0.9em\"\r\n                            >\r\n                                Palha Toquilla autêntica, Leve e Fresco.\r\n                            </div>\r\n                        </div>\r\n                    </picture>\r\n                </a>\r\n\r\n                <!-- Cartão 2: Viseira Esportiva -->\r\n                <a\r\n                    href=\"/produto\"\r\n                    style=\"text-decoration: none; color: inherit\"\r\n                >\r\n                    <picture\r\n                        class=\"card\"\r\n                        style=\"\r\n                            border: 1px solid #ddd;\r\n                            border-radius: 8px;\r\n                            overflow: hidden;\r\n                            transition: transform 0.3s ease;\r\n                        \"\r\n                    >\r\n                        <img\r\n                            src=\"https://placehold.co/300x300/a9e6e6/333333?text=Viseira\"\r\n                            alt=\"Viseira Esportiva Azul\"\r\n                            style=\"width: 100%; height: auto\"\r\n                        />\r\n                        <div style=\"padding: 15px; text-align: center\">\r\n                            <div\r\n                                class=\"card-title\"\r\n                                style=\"\r\n                                    font-weight: bold;\r\n                                    font-size: 1.1em;\r\n                                    color: #333;\r\n                                \"\r\n                            >\r\n                                Viseira Performance\r\n                            </div>\r\n                            <div\r\n                                class=\"card-description\"\r\n                                style=\"color: #666; font-size: 0.9em\"\r\n                            >\r\n                                Tecido Dry-fit, ideal para exercícios.\r\n                            </div>\r\n                        </div>\r\n                    </picture>\r\n                </a>\r\n\r\n                <!-- Cartão 3: Chapéu Floppy (praia) -->\r\n                <a\r\n                    href=\"/produto\"\r\n                    style=\"text-decoration: none; color: inherit\"\r\n                >\r\n                    <picture\r\n                        class=\"card\"\r\n                        style=\"\r\n                            border: 1px solid #ddd;\r\n                            border-radius: 8px;\r\n                            overflow: hidden;\r\n                            transition: transform 0.3s ease;\r\n                        \"\r\n                    >\r\n                        <img\r\n                            src=\"https://placehold.co/300x300/f08080/333333?text=Floppy\"\r\n                            alt=\"Chapéu Floppy de Aba Larga\"\r\n                            style=\"width: 100%; height: auto\"\r\n                        />\r\n                        <div style=\"padding: 15px; text-align: center\">\r\n                            <div\r\n                                class=\"card-title\"\r\n                                style=\"\r\n                                    font-weight: bold;\r\n                                    font-size: 1.1em;\r\n                                    color: #333;\r\n                                \"\r\n                            >\r\n                                Chapéu Floppy de Praia\r\n                            </div>\r\n                            <div\r\n                                class=\"card-description\"\r\n                                style=\"color: #666; font-size: 0.9em\"\r\n                            >\r\n                                Aba extra larga, máxima proteção UV.\r\n                            </div>\r\n                        </div>\r\n                    </picture>\r\n                </a>\r\n\r\n                <!-- Cartão 4: Chapéu Bucket com Estampa Tropical -->\r\n                <a\r\n                    href=\"/produto\"\r\n                    style=\"text-decoration: none; color: inherit\"\r\n                >\r\n                    <picture\r\n                        class=\"card\"\r\n                        style=\"\r\n                            border: 1px solid #ddd;\r\n                            border-radius: 8px;\r\n                            overflow: hidden;\r\n                            transition: transform 0.3s ease;\r\n                        \"\r\n                    >\r\n                        <img\r\n                            src=\"https://placehold.co/300x300/98fb98/333333?text=Bucket\"\r\n                            alt=\"Chapéu Bucket Estampa Tropical\"\r\n                            style=\"width: 100%; height: auto\"\r\n                        />\r\n                        <div style=\"padding: 15px; text-align: center\">\r\n                            <div\r\n                                class=\"card-title\"\r\n                                style=\"\r\n                                    font-weight: bold;\r\n                                    font-size: 1.1em;\r\n                                    color: #333;\r\n                                \"\r\n                            >\r\n                                Bucket Tropical\r\n                            </div>\r\n                            <div\r\n                                class=\"card-description\"\r\n                                style=\"color: #666; font-size: 0.9em\"\r\n                            >\r\n                                Estampa vibrante, 100% algodão.\r\n                            </div>\r\n                        </div>\r\n                    </picture>\r\n                </a>\r\n            </section>\r\n        </main>\r\n\r\n        <!-- FOOTER: Estrutura idêntica às outras páginas -->\r\n        <footer>\r\n            <figure class=\"logo\">\r\n                <a href=\"/\"\r\n                    ><img\r\n                        src=\"/images/logo.png\"\r\n                        alt=\"Logo - O Senhor dos Chapéis\"\r\n                /></a>\r\n            </figure>\r\n            <a href=\"/sobre-nos\"><span class=\"sobre-nos\">Sobre nós</span></a>\r\n        </footer>\r\n    </body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/colecao.html b/src/main/resources/templates/colecao.html
+--- a/src/main/resources/templates/colecao.html	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/src/main/resources/templates/colecao.html	(date 1764130355194)
+@@ -15,7 +15,7 @@
+                         alt="Logo - O Senhor dos Chapéis"
+                 /></a>
+             </figure>
+-            <form method="get" class="search-box">
++            <form action="/busca" method="get" target="_self" class="search-box">
+                 <input
+                     name="search"
+                     type="text"
+Index: src/main/resources/templates/search.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t<title>Resultados da Busca - O Senhor dos Chapéis</title>\r\n    <link rel=\"stylesheet\" href=\"/style.css\">\r\n</head>\r\n<body>\r\n\t<header>\r\n\t\t<figure class=\"logo\">\r\n\t\t\t<a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n\t\t</figure>\r\n\t\t<form method=\"get\" class=\"search-box\">\r\n\t\t\t<input name=\"search\" type=\"text\" placeholder=\"buscar\" id=\"search-box\" class=\"search-box\">\r\n\t\t\t<button type=\"submit\">\r\n\t\t\t\t<img src=\"/images/lupa.png\" alt=\"search-icon\" class=\"search-icon\" height=\"32px\" width=\"32px\">\r\n\t\t\t</button>\r\n\t\t</form>\r\n\t</header>\r\n\t<div class=\"search-container\">\r\n\t\t<aside class=\"filter-sidebar\">\r\n\t\t\t<div class=\"filters-title\">\r\n\t\t\t\t<img src=\"/images/filter.png\" class=\"filter-icon\" alt=\"icon\">\r\n\t\t\t\tFiltros\r\n\t\t\t</div>\r\n\t\t\t<form id=\"filters-form\">\r\n\t\t\t\t<div class=\"filter-drop filter-group\">\r\n\t\t\t\t\t<button type=\"button\" class=\"filter-drop-toggle\" aria-expanded=\"false\">\r\n\t\t\t\t\t\t<span>Categorias</span>\r\n\t\t\t\t\t\t<img src=\"/images/next.png\" class=\"filter-drop-arrow\"></img>\r\n\t\t\t\t\t</button>\r\n\t\t\t\t\t<div class=\"filter-drop-content\">\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"formais\"> Formais</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"casuais\"> Casuais</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"esportivos\"> Esportivos</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"tradicionais\"> Tradicionais</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"profissionais\"> Profissionais</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"tematicos\"> Temáticos</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"femininos\"> Femininos</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"masculinos\"> Masculinos</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"category\" value=\"outros\"> Outros</label>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n                <div class=\"filter-drop filter-group\">\r\n\t\t\t\t\t<button type=\"button\" class=\"filter-drop-toggle\" aria-expanded=\"false\">\r\n\t\t\t\t\t\t<span>Acessórios</span>\r\n\t\t\t\t\t\t<img src=\"/images/next.png\" class=\"filter-drop-arrow\"></img>\r\n\t\t\t\t\t</button>\r\n\t\t\t\t\t<div class=\"filter-drop-content\">\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"accessory\" value=\"fita\"> Fita</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"accessory\" value=\"pena\"> Pena</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"accessory\" value=\"broche\"> Broche</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"accessory\" value=\"flor\"> Flor</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"accessory\" value=\"laço\"> Laço</label>\r\n\t\t\t\t\t\t<label><input type=\"checkbox\" name=\"accessory\" value=\"outros\"> Outros</label>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"filter-drop filter-group\">\r\n\t\t\t\t\t<button type=\"button\" class=\"filter-drop-toggle\" aria-expanded=\"false\">\r\n\t\t\t\t\t\t<span>Cores</span>\r\n\t\t\t\t\t\t<img src=\"/images/next.png\" class=\"filter-drop-arrow\"></img>\r\n\t\t\t\t\t</button>\r\n\t\t\t\t\t<div class=\"filter-drop-content\">\r\n                        <select name=\"color\">\r\n                            <option disabled selected value> -- select an option -- </option>\r\n                            <option>Preto</option>\r\n                            <option>Branco</option>\r\n                            <option>Marrom</option>\r\n                            <option>Cinza</option>\r\n                            <option>Vermelho</option>\r\n                            <option>Azul</option>\r\n                            <option>Verde</option>\r\n                            <option>Amarelo</option>\r\n                            <option>Outros</option>\r\n                        </select>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<button type=\"submit\" style=\"width:100%;margin-top:1rem;\">Filtrar</button>\r\n\t\t\t</form>\r\n\t\t</aside>\r\n\t\t<main class=\"search-main\">\r\n\t\t\t<div class=\"results-header\">\r\n\t\t\t\t<span class=\"results-title\">Resultados da Busca</span>\r\n\t\t\t\t<span class=\"results-count\">8 produtos encontrados</span>\r\n\t\t\t</div>\r\n\t\t\t<section class=\"results-grid\">\r\n\t\t\t\t<a href=\"/produto\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 1\">\r\n                    <div class=\"card-title\">Chapéu Fedora</div>\r\n                    <div class=\"card-description\">Clássico, elegante, cor preta</div>\r\n                    <div class=\"card-meta\">Categoria: Formais</div>\r\n                </picture></a>\r\n                <a href=\"/produto\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 2\">\r\n                    <div class=\"card-title\">Chapéu Panamá</div>\r\n                    <div class=\"card-description\">Casual, leve, cor branca</div>\r\n                    <div class=\"card-meta\">Categoria: Casuais</div>\r\n                </picture></a>\r\n                <a href=\"/produto\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 3\">\r\n                    <div class=\"card-title\">Chapéu Bucket</div>\r\n                    <div class=\"card-description\">Esportivo, resistente, cor azul</div>\r\n                    <div class=\"card-meta\">Categoria: Esportivos</div>\r\n                    </picture></a>\r\n                <a href=\"/produto\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 4\">\r\n                    <div class=\"card-title\">Chapéu Côco</div>\r\n                    <div class=\"card-description\">Tradicional, rígido, cor marrom</div>\r\n                    <div class=\"card-meta\">Categoria: Tradicionais</div>\r\n                </picture></a>\r\n\t\t\t\t<a href=\"/produto\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 5\">\r\n                    <div class=\"card-title\">Chapéu Chef</div>\r\n                    <div class=\"card-description\">Profissional, alto, cor branca</div>\r\n                    <div class=\"card-meta\">Categoria: Profissionais</div>\r\n                </picture></a>\r\n                <a href=\"/produto\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 6\">\r\n                    <div class=\"card-title\">Chapéu de Bruxa</div>\r\n                    <div class=\"card-description\">Temático, divertido, cor preta</div>\r\n                    <div class=\"card-meta\">Categoria: Temáticos</div>\r\n                </picture></a>\r\n                <a href=\"/produto\"><picture class=\"card\">\r\n                    <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 7\">\r\n                    <div class=\"card-title\">Chapéu Cloche</div>\r\n                    <div class=\"card-description\">Feminino, vintage, cor vermelha</div>\r\n                    <div class=\"card-meta\">Categoria: Femininos</div>\r\n\t\t\t\t</a>\r\n\t\t\t</section>\r\n\t\t</main>\r\n\t</div>\r\n\t<footer>\r\n\t\t<figure class=\"logo\">\r\n\t\t\t<a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n\t\t</figure>\r\n\t\t<a href=\"/sobre-nos\"><span class=\"sobre-nos\">Sobre nós</span></a>\r\n\t</footer>\r\n\t<script>\r\n        // Interactive filter: highlight checked labels\r\n        document.querySelectorAll('.filter-group input[type=\"checkbox\"]').forEach(function(checkbox) {\r\n            checkbox.addEventListener('change', function() {\r\n                if (this.checked) {\r\n                    this.parentElement.style.fontWeight = 'bold';\r\n                    this.parentElement.style.color = '#2e4637';\r\n                } else {\r\n                    this.parentElement.style.fontWeight = '';\r\n                    this.parentElement.style.color = '';\r\n                }\r\n            });\r\n        });\r\n        // filter-drop toggling for filter groups (collapsed by default)\r\n        document.querySelectorAll('.filter-drop-toggle').forEach(function(toggle) {\r\n            toggle.addEventListener('click', function() {\r\n                var expanded = this.getAttribute('aria-expanded') === 'true';\r\n                this.setAttribute('aria-expanded', !expanded);\r\n                var content = this.parentElement.querySelector('.filter-drop-content');\r\n                if (content) {\r\n                    content.classList.toggle('open');\r\n                }\r\n            });\r\n        });\r\n\t</script>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/search.html b/src/main/resources/templates/search.html
+--- a/src/main/resources/templates/search.html	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/src/main/resources/templates/search.html	(date 1764130355226)
+@@ -12,7 +12,7 @@
+ 		<figure class="logo">
+ 			<a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+ 		</figure>
+-		<form method="get" class="search-box">
++        <form action="/busca" method="get" target="_self" class="search-box">
+ 			<input name="search" type="text" placeholder="buscar" id="search-box" class="search-box">
+ 			<button type="submit">
+ 				<img src="/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+Index: src/main/resources/templates/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>O Senhor dos Chapéis</title>\r\n    <link rel=\"stylesheet\" href=\"/style.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <figure class=\"logo\">\r\n            <a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n        </figure>\r\n        <form method=\"get\" class=\"search-box\">\r\n            <input name=\"search\" type=\"text\" placeholder=\"buscar\" id=\"search-box\" class=\"search-box\"></input>\r\n            <button type=\"submit\">\r\n                <img src=\"/images/lupa.png\" alt=\"search-icon\" class=\"search-icon\" height=\"32px\" width=\"32px\">\r\n            </button>\r\n        </form>\r\n    </header>\r\n    <nav>\r\n        <ul class=\"chip-box\">\r\n            <a href=\"/busca?categoria=formais\"><li class=\"chip\"><span>Formais</span></li></a>\r\n            <a href=\"/busca?categoria=formais\"><li class=\"chip\"><span>Casuais</span></li></a>\r\n            <a href=\"/busca?categoria=esportivos\"><li class=\"chip\"><span>Esportivos</span></li></a>\r\n            <a href=\"/busca?categoria=tradicionais\"><li class=\"chip\"><span>Tradicionais</span></li></a>\r\n            <a href=\"/busca?categoria=profissionais\"><li class=\"chip\"><span>Profissionais</span></li></a>\r\n            <a href=\"/busca?categoria=tematicos\"><li class=\"chip\"><span>Temáticos</span></li></a>\r\n            <a href=\"/busca?categoria=femininos\"><li class=\"chip\"><span>Femininos</span></li></a>\r\n            <a href=\"/busca?categoria=masculinos\"><li class=\"chip\"><span>Masculinos</span></li></a>\r\n            <a href=\"/busca?categoria=outros\"><li class=\"chip\"><span>Outros</span></li></a>\r\n        </ul>\r\n    </nav>\r\n    <main class=\"index-main\">\r\n        <section class=\"carousel\">\r\n            <div class=\"carousel-group\">\r\n                <a href=\"/colecao\"><picture class=\"carousel-item\"><img src=\"/images/placeholder-suspeito.png\" alt=\"item\"></picture></a>\r\n            </div>\r\n            <div aria-hidden=\"true\" class=\"carousel-group\">\r\n                <a href=\"/colecao\"><picture class=\"carousel-item\"><img src=\"/images/placeholder-suspeito.png\" alt=\"item\"></picture></a>\r\n            </div>\r\n            <div aria-hidden=\"true\" class=\"carousel-group\">\r\n                <a href=\"/colecao\"><picture class=\"carousel-item\"><img src=\"/images/placeholder-suspeito.png\" alt=\"item\"></picture></a>\r\n            </div>\r\n        </section>\r\n        <section class=\"card-box\">\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 1\">\r\n                <div class=\"card-title\">Chapéu Fedora</div>\r\n                <div class=\"card-description\">Clássico, elegante, cor preta</div>\r\n                <div class=\"card-meta\">Categoria: Formais</div>\r\n            </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 2\">\r\n                <div class=\"card-title\">Chapéu Panamá</div>\r\n                <div class=\"card-description\">Casual, leve, cor branca</div>\r\n                <div class=\"card-meta\">Categoria: Casuais</div>\r\n            </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 3\">\r\n                <div class=\"card-title\">Chapéu Bucket</div>\r\n                <div class=\"card-description\">Esportivo, resistente, cor azul</div>\r\n                <div class=\"card-meta\">Categoria: Esportivos</div>\r\n                </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 4\">\r\n                <div class=\"card-title\">Chapéu Côco</div>\r\n                <div class=\"card-description\">Tradicional, rígido, cor marrom</div>\r\n                <div class=\"card-meta\">Categoria: Tradicionais</div>\r\n            </picture></a>\r\n        </section>\r\n        <section class=\"card-box\">\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 5\">\r\n                <div class=\"card-title\">Chapéu Chef</div>\r\n                <div class=\"card-description\">Profissional, alto, cor branca</div>\r\n                <div class=\"card-meta\">Categoria: Profissionais</div>\r\n            </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 6\">\r\n                <div class=\"card-title\">Chapéu de Bruxa</div>\r\n                <div class=\"card-description\">Temático, divertido, cor preta</div>\r\n                <div class=\"card-meta\">Categoria: Temáticos</div>\r\n            </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 7\">\r\n                <div class=\"card-title\">Chapéu Cloche</div>\r\n                <div class=\"card-description\">Feminino, vintage, cor vermelha</div>\r\n                <div class=\"card-meta\">Categoria: Femininos</div>\r\n            </picture></a>\r\n        </section>\r\n    </main>\r\n    <footer>\r\n        <figure class=\"logo\">\r\n            <a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n        </figure>\r\n        <a href=\"/sobre-nos\"><span class=\"sobre-nos\">Sobre nós</span></a>\r\n    </footer>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/index.html b/src/main/resources/templates/index.html
+--- a/src/main/resources/templates/index.html	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/src/main/resources/templates/index.html	(date 1764130355177)
+@@ -11,7 +11,7 @@
+         <figure class="logo">
+             <a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+         </figure>
+-        <form method="get" class="search-box">
++        <form action="/busca" method="get" target="_self" class="search-box">
+             <input name="search" type="text" placeholder="buscar" id="search-box" class="search-box"></input>
+             <button type="submit">
+                 <img src="/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+@@ -34,13 +34,13 @@
+     <main class="index-main">
+         <section class="carousel">
+             <div class="carousel-group">
+-                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
++                <a href="/colecao"><picture class="carousel-item"><img src="/images/banner-colecao-aventura.png" alt="item"></picture></a>
+             </div>
+             <div aria-hidden="true" class="carousel-group">
+-                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
++                <a href="/colecao"><picture class="carousel-item"><img src="/images/banner-colecao-inverno.png" alt="item"></picture></a>
+             </div>
+             <div aria-hidden="true" class="carousel-group">
+-                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
++                <a href="/colecao"><picture class="carousel-item"><img src="/images/banner-colecao-verao.png" alt="item"></picture></a>
+             </div>
+         </section>
+         <section class="card-box">
+Index: src/main/resources/static/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* Custom styled checkboxes */\r\n\r\nhtml, body{max-width: 100vw; max-height: 100vw;}\r\nbody{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-items: stretch;\r\n    background-color: #f4f1e6;\r\n    font-family: 'Segoe UI', Arial, sans-serif;\r\n    font-size: 1.08rem;\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n    color: #2e4637;\r\n}\r\n\r\nheader{\r\n    margin: 0 0 1rem 0;\r\n    border: 0;\r\n    padding: 1rem 1.2rem 1rem 1.2rem;\r\n    max-width: 100vw;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    align-content: center;\r\n    background-color: #e4e1b7;\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.07);\r\n}\r\n\r\n.logo{\r\n    margin: 0 1rem 0 0;\r\n    border: 0;\r\n    padding: 0.4rem;\r\n    height: 200px;\r\n    width: 200px;\r\n    background-color: #f3efd828; /* lighter pastel */\r\n    border-radius: 50%;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    box-shadow: 0 1px 6px rgba(46, 70, 55, 0.08);\r\n}\r\n\r\n.logo img{\r\n    height: 200px;\r\n    width: 200px;\r\n}\r\n\r\n.search-box{\r\n    margin: 0 1rem;\r\n    border: 0;\r\n    padding: 0.4rem 0.8rem;\r\n    height: auto;\r\n    width: 50%;\r\n    background-color: #f3f0d8;\r\n    border-radius: 10px;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    font-size: 1rem;\r\n    box-shadow: 0 1px 4px rgba(46, 70, 55, 0.06);\r\n}\r\n\r\n.search-box input{\r\n    width: 95%;\r\n    height: 100%;\r\n}\r\n\r\n.search-box input:focus{\r\n    background-color: whitesmoke;\r\n}\r\n\r\n.search-box button{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 32px;\r\n    width: 32px;\r\n    border-radius: 50%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nnav{\r\n    margin: 0 0 1rem 0;\r\n    border: 0;\r\n    padding: 0.4rem 0;\r\n    height: auto;\r\n    width: auto;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    justify-content: center;\r\n    background-color: #e4dfb7;\r\n    gap: 1rem;\r\n    box-shadow: 0 1px 4px rgba(46, 70, 55, 0.05);\r\n}\r\n\r\n.chip-box{\r\n    margin: 0 0.5rem;\r\n    border: 0;\r\n    padding: 0.4rem 0;\r\n    height: auto;\r\n    width: auto;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    align-content: space-evenly;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    gap: 0.6rem;\r\n}\r\n\r\n.chip{\r\n    margin: 0.4rem;\r\n    border: 0;\r\n    padding: 0.4rem 1rem;\r\n    height: auto;\r\n    width: auto;\r\n    list-style-type: none;\r\n    background-color: #fff8bf;\r\n    border-radius: 16px;\r\n    font-size: 1rem;\r\n    color: #2e4637;\r\n    box-shadow: 0 1px 4px rgba(46, 70, 55, 0.07);\r\n    transition: background 0.2s, color 0.2s;\r\n}\r\n.chip:hover {\r\n    cursor: pointer;\r\n    background-color: #e4d6b7;\r\n    color: #2d291b;\r\n    font-weight: bold;\r\n}\r\n\r\nfooter{\r\n    margin: 1rem 0 0 0;\r\n    border: 0;\r\n    padding: 0.8rem 1vw;\r\n    max-width: 100vw;\r\n    height: auto;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    align-content: center;\r\n    bottom: 0;\r\n    background-color: #e4dbb7;\r\n    font-size: 1.05rem;\r\n    color: #23422a;\r\n    z-index: 10;\r\n    border-top: 1px solid #f3eed8;\r\n}\r\n\r\n.sobre-nos{\r\n    font-size: 2rem;\r\n    font-weight: bold;\r\n}\r\n\r\n/*Página inicial*/\r\n.index-main{\r\n    margin: 0 10vw 0 10vw;\r\n    border: 0;\r\n    padding: 0;\r\n    max-width: 100vw;\r\n    height: auto;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    align-items: stretch;\r\n    justify-content: flex-start;\r\n    background-color: #e4dfb7;\r\n    border-radius: 18px;\r\n    box-shadow: 0 2px 12px rgba(46, 70, 55, 0.08);\r\n}\r\n\r\n.carousel{\r\n    margin: 1rem;\r\n    border: 0;\r\n    padding: 0;\r\n    height: auto;\r\n    width: inherit;\r\n    display: flex;\r\n    overflow-x: auto;\r\n    border-radius: 8px;\r\n}\r\n\r\n.carousel::-webkit-scrollbar{\r\n    display: none;\r\n}\r\n\r\n.carousel-group{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    gap: 1em;\r\n    padding-right: 1em;\r\n    animation: spin 32s infinite linear;\r\n}\r\n\r\n.carousel-item{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 400px;\r\n    width: 1024px;\r\n    flex: 0 0 256px;\r\n    text-align: center;\r\n    align-content: center;\r\n    border-radius: 8px;\r\n    background-color: #a29e82;\r\n}\r\n\r\n.carousel-item img{\r\n    border-radius: 8px;\r\n}\r\n\r\n@keyframes spin{\r\n    from{translate: 0;}\r\n    to{translate: -100%;}\r\n}\r\n\r\n.card-box{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 1rem;\r\n    height: auto;\r\n    width: inherit;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    align-content: space-around;\r\n    background-color: #f4f0e6;\r\n}\r\n\r\n.card{\r\n    background-color: #d5c595;\r\n    border-radius: 14px;\r\n    font-size: 1.05rem;\r\n\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.09);\r\n    transition: background 0.2s, color 0.2s, box-shadow 0.2s;\r\n}\r\n.card {\r\n    margin: 0.5rem;\r\n    border: 0;\r\n    padding: 1rem 0.5rem 1rem 0.5rem;\r\n    height: 360px;\r\n    width: 256px;\r\n    border-radius: 14px;\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.09);\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    color: #23422a;\r\n    background: #d5c595;\r\n    transition: background 0.2s, color 0.2s, box-shadow 0.2s;\r\n    text-align: center;\r\n}\r\n.card:hover {\r\n    background: #e4d8b7;\r\n    color: #1b2d22;\r\n    box-shadow: 0 4px 16px rgba(46, 70, 55, 0.13);\r\n}\r\n.card img {\r\n    border-radius: 10px;\r\n    width: 180px;\r\n    height: 180px;\r\n    object-fit: cover;\r\n    margin-bottom: 1rem;\r\n    background: #a29e82;\r\n}\r\n.card-title {\r\n    font-size: 1.2rem;\r\n    font-weight: bold;\r\n    margin-bottom: 0.5rem;\r\n}\r\n.card-description {\r\n    font-size: 1rem;\r\n    color: #23422a;\r\n    margin-bottom: 0.5rem;\r\n}\r\n.card-meta {\r\n    font-size: 0.95rem;\r\n    color: #918240;\r\n}\r\n\r\n/*Página de produto*/\r\n.product-main{\r\n    margin: 0 10vw 0 10vw;\r\n    border: 0;\r\n    padding: 0;\r\n    max-width: 100vw;\r\n    height: auto;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    align-items: stretch;\r\n    justify-content: flex-start;\r\n    background-color: #e4dfb7;\r\n    border-radius: 18px;\r\n    box-shadow: 0 2px 12px rgba(46, 70, 55, 0.08);\r\n}\r\n\r\n.product-info{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    align-content: flex-start;\r\n    justify-content: space-between;\r\n    align-items: flex-start;\r\n}\r\n\r\n.product-gallery{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.product-gallery button{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 32px;\r\n    width: 32px;\r\n    border-radius: 50%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.product-display{\r\n    margin: 1rem;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 530px;\r\n    width: 512px;\r\n    display: flex;\r\n    overflow-x: auto;\r\n    border-radius: 8px;\r\n}\r\n\r\n.product-display::-webkit-scrollbar{\r\n    display: none;\r\n}\r\n\r\n.product-group{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    gap: 1em;\r\n}\r\n\r\n.product-image{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 512px;\r\n    width: 512px;\r\n    flex: 0 0 512px;\r\n    text-align: center;\r\n    align-content: center;\r\n    border-radius: 8px;\r\n    background-color: #a29e82;\r\n}\r\n\r\n.product-image img{\r\n    border-radius: 8px;\r\n}\r\n\r\n.product-description{\r\n    height: 40vw;\r\n    width: 29vw;\r\n}\r\n\r\n.product-description h1{\r\n    text-align: center;\r\n}\r\n\r\n\r\n.product-sellers {\r\n    width: inherit;\r\n    text-align: center;\r\n}\r\n\r\n.product-sellers h1{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 1rem;\r\n    background-color: #d5c595;\r\n}\r\n\r\n/*Página de busca*/\r\n\r\n.search-container {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: flex-start;\r\n    justify-content: center;\r\n    gap: 2vw;\r\n    margin: 0 4vw;\r\n    width: 92vw;\r\n    max-width: 100vw;\r\n    box-sizing: border-box;\r\n}\r\n.search-main {\r\n    flex: 1 1 0;\r\n    background: #e4dfb7;\r\n    border-radius: 18px;\r\n    box-shadow: 0 2px 12px rgba(46, 70, 55, 0.08);\r\n    margin: 1rem 0;\r\n    padding: 2rem 2vw 2rem 2vw;\r\n    min-width: 0;\r\n    max-width: 100%;\r\n    overflow: visible;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 2rem;\r\n}\r\n.filter-drop {\r\n    border-bottom: 1px solid #e4dfb7;\r\n    margin-bottom: 1rem;\r\n}\r\n.filter-drop-toggle {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    width: 100%;\r\n    background: none;\r\n    border: none;\r\n    font-size: 1.1rem;\r\n    font-weight: bold;\r\n    color: #2e4637;\r\n    padding: 0.5em 0;\r\n    cursor: pointer;\r\n    outline: none;\r\n    transition: color 0.2s;\r\n}\r\n.filter-drop-toggle .filter-icon {\r\n    margin-right: 0.5em;\r\n    transition: transform 0.2s;\r\n}\r\n.filter-drop-toggle[aria-expanded=\"true\"] .filter-drop-arrow {\r\n    transform: rotate(90deg);\r\n}\r\n.filter-drop-arrow {\r\n    margin-left: 0.5em;\r\n    width: 1em;\r\n    height: 1em;\r\n    transition: transform 0.2s;\r\n}\r\n.filter-drop-content {\r\n    display: none;\r\n    flex-direction: column;\r\n    padding-left: 0.5em;\r\n    margin-bottom: 0.5em;\r\n}\r\n.filter-drop-content.open {\r\n    display: flex;\r\n}\r\n.filters-title {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 0.6em;\r\n    font-size: 1.3rem;\r\n    font-weight: bold;\r\n    color: #2e4637;\r\n    margin-bottom: 1.2em;\r\n}\r\naside.filter-sidebar {\r\n    min-width: 260px;\r\n    max-width: 320px;\r\n    background: #f3f0d8;\r\n    border-radius: 16px;\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.07);\r\n    padding: 2rem 1.2rem 1.2rem 1.2rem;\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    position: sticky;\r\n    top: 1rem;\r\n    height: fit-content;\r\n    overflow: visible;\r\n}\r\n.filter-group {\r\n    margin-bottom: 2rem;\r\n}\r\n.filter-group label {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 0.5em;\r\n    margin-bottom: 0.5em;\r\n    font-size: 1rem;\r\n    cursor: pointer;\r\n}\r\n.filter-group-title {\r\n    font-weight: bold;\r\n    font-size: 1.1rem;\r\n    margin-bottom: 0.7em;\r\n    color: #2e4637;\r\n}\r\n.filter-icon {\r\n    width: 18px;\r\n    height: 18px;\r\n    margin-right: 0.3em;\r\n    vertical-align: middle;\r\n}\r\n.results-header {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    flex-wrap: wrap;\r\n    gap: 1rem;\r\n}\r\n.results-title {\r\n    font-size: 2rem;\r\n    font-weight: bold;\r\n    color: #2e4637;\r\n}\r\n.results-count {\r\n    font-size: 1.1rem;\r\n    color: #918240;\r\n}\r\n.results-grid {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    gap: 2rem;\r\n    justify-content: flex-start;\r\n    align-items: stretch;\r\n    width: 100%;\r\n}\r\n@media (max-width: 1100px) {\r\n    .search-container {\r\n        flex-direction: column;\r\n        align-items: stretch;\r\n        gap: 0;\r\n        margin: 0 1vw;\r\n        width: 98vw;\r\n    }\r\n    aside.filter-sidebar {\r\n        max-width: 100vw;\r\n        width: 100%;\r\n        position: static;\r\n        margin-bottom: 1.5rem;\r\n    }\r\n    main.search-main {\r\n        margin: 0;\r\n        padding: 1rem 1vw;\r\n    }\r\n    .results-grid {\r\n        gap: 1rem;\r\n    }\r\n}\r\n\r\n/*Miscelâneo*/\r\na {\r\n    color: #918240;\r\n    text-decoration: none;\r\n    transition: color 0.2s;\r\n}\r\na:hover, a:focus {\r\n    color: #433b1b;\r\n    background-color: #f3efd880;\r\n    border-radius: 8px;\r\n    cursor: pointer;\r\n}\r\n\r\n\r\nbutton{\r\n    background-color: #b7a352;\r\n    color: #fff;\r\n    border: none;\r\n    border-radius: 8px;\r\n    padding: 0.5em 1.2em;\r\n    font-size: 1rem;\r\n    font-family: inherit;\r\n    cursor: pointer;\r\n    box-shadow: 0 1px 4px rgba(46, 70, 55, 0.08);\r\n    transition: background 0.2s, color 0.2s, box-shadow 0.2s;\r\n}\r\nbutton:hover{\r\n    background-color: #918440;\r\n    color: #f4f2e6;\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.13);\r\n}\r\n\r\n\r\n\r\n@media (max-width: 800px) {\r\n    .search-box{\r\n        width: 90%;\r\n    }\r\n    .index-main {\r\n        margin-left: 0;\r\n        margin-right: 0;\r\n        width: 100%;\r\n        border-radius: 0;\r\n    }\r\n    .product-main {\r\n        margin-left: 0;\r\n        margin-right: 0;\r\n        width: 100%;\r\n        border-radius: 0;\r\n    }\r\n    .carousel{\r\n        margin: 0;\r\n        margin-top: 1rem;\r\n        margin-bottom: 1rem;\r\n    }\r\n    .card{\r\n        height: 210px;\r\n        width: 158px;\r\n    }\r\n    .card img{\r\n        width: 100px;\r\n        height: 100px;\r\n    }\r\n    .result-card {\r\n\t\t\twidth: 98vw;\r\n\t\t\tmin-width: 0;\r\n\t\t}\r\n    .results-grid {\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/static/style.css b/src/main/resources/static/style.css
+--- a/src/main/resources/static/style.css	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/src/main/resources/static/style.css	(date 1764130801973)
+@@ -1,6 +1,5 @@
+-/* Custom styled checkboxes */
+ 
+-html, body{max-width: 100vw; max-height: 100vw;}
++/* html, body{width: 100%;height: 100%;} */
+ body{
+     margin: 0;
+     border: 0;
+@@ -10,7 +9,7 @@
+     flex-wrap: nowrap;
+     justify-content: flex-start;
+     align-items: stretch;
+-    background-color: #f4f1e6;
++    background-color: #f4f1e6; /* pastel green */
+     font-family: 'Segoe UI', Arial, sans-serif;
+     font-size: 1.08rem;
+     overflow-y: auto;
+@@ -22,6 +21,7 @@
+     margin: 0 0 1rem 0;
+     border: 0;
+     padding: 1rem 1.2rem 1rem 1.2rem;
++    width: 100%;
+     max-width: 100vw;
+     display: flex;
+     flex-direction: row;
+@@ -29,7 +29,7 @@
+     justify-content: space-evenly;
+     align-items: center;
+     align-content: center;
+-    background-color: #e4e1b7;
++    background-color: #e4e1b7; /* pastel green */
+     box-shadow: 0 2px 8px rgba(46, 70, 55, 0.07);
+ }
+ 
+@@ -37,8 +37,8 @@
+     margin: 0 1rem 0 0;
+     border: 0;
+     padding: 0.4rem;
+-    height: 200px;
+-    width: 200px;
++    height: 256px;
++    width: 256px;
+     background-color: #f3efd828; /* lighter pastel */
+     border-radius: 50%;
+     display: flex;
+@@ -47,17 +47,12 @@
+     box-shadow: 0 1px 6px rgba(46, 70, 55, 0.08);
+ }
+ 
+-.logo img{
+-    height: 200px;
+-    width: 200px;
+-}
+-
+ .search-box{
+     margin: 0 1rem;
+     border: 0;
+     padding: 0.4rem 0.8rem;
+     height: auto;
+-    width: 50%;
++    width: 60%;
+     background-color: #f3f0d8;
+     border-radius: 10px;
+     display: flex;
+@@ -70,7 +65,7 @@
+ }
+ 
+ .search-box input{
+-    width: 95%;
++    width: 90%;
+     height: 100%;
+ }
+ 
+@@ -142,37 +137,12 @@
+     font-weight: bold;
+ }
+ 
+-footer{
+-    margin: 1rem 0 0 0;
+-    border: 0;
+-    padding: 0.8rem 1vw;
+-    max-width: 100vw;
+-    height: auto;
+-    display: flex;
+-    flex-direction: row;
+-    flex-wrap: wrap;
+-    justify-content: space-evenly;
+-    align-items: center;
+-    align-content: center;
+-    bottom: 0;
+-    background-color: #e4dbb7;
+-    font-size: 1.05rem;
+-    color: #23422a;
+-    z-index: 10;
+-    border-top: 1px solid #f3eed8;
+-}
+-
+-.sobre-nos{
+-    font-size: 2rem;
+-    font-weight: bold;
+-}
+-
+-/*Página inicial*/
+-.index-main{
++
++main{
+     margin: 0 10vw 0 10vw;
+     border: 0;
+     padding: 0;
+-    max-width: 100vw;
++    width: auto;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+@@ -192,7 +162,6 @@
+     width: inherit;
+     display: flex;
+     overflow-x: auto;
+-    border-radius: 8px;
+ }
+ 
+ .carousel::-webkit-scrollbar{
+@@ -218,7 +187,7 @@
+     text-align: center;
+     align-content: center;
+     border-radius: 8px;
+-    background-color: #a29e82;
++    background-color: #a9975b;
+ }
+ 
+ .carousel-item img{
+@@ -230,10 +199,10 @@
+     to{translate: -100%;}
+ }
+ 
+-.card-box{
++.cards{
+     margin: 0;
+     border: 0;
+-    padding: 1rem;
++    padding: 0;
+     height: auto;
+     width: inherit;
+     display: flex;
+@@ -246,334 +215,58 @@
+ }
+ 
+ .card{
+-    background-color: #d5c595;
+-    border-radius: 14px;
+-    font-size: 1.05rem;
+-
+-    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.09);
+-    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+-}
+-.card {
+     margin: 0.5rem;
+     border: 0;
+-    padding: 1rem 0.5rem 1rem 0.5rem;
++    padding: 0;
+     height: 360px;
+     width: 256px;
++    background-color: #d5c595;
+     border-radius: 14px;
+-    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.09);
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content: flex-start;
++    font-size: 1.05rem;
+     color: #23422a;
+-    background: #d5c595;
++    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.09);
+     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+-    text-align: center;
+ }
+ .card:hover {
+-    background: #e4d8b7;
++    background-color: #e4d8b7;
+     color: #1b2d22;
+     box-shadow: 0 4px 16px rgba(46, 70, 55, 0.13);
+ }
+-.card img {
+-    border-radius: 10px;
+-    width: 180px;
+-    height: 180px;
+-    object-fit: cover;
+-    margin-bottom: 1rem;
+-    background: #a29e82;
+-}
+-.card-title {
+-    font-size: 1.2rem;
+-    font-weight: bold;
+-    margin-bottom: 0.5rem;
+-}
+-.card-description {
+-    font-size: 1rem;
+-    color: #23422a;
+-    margin-bottom: 0.5rem;
+-}
+-.card-meta {
+-    font-size: 0.95rem;
+-    color: #918240;
++.card img{
++    border-radius: 14px 14px 0 0;
+ }
+ 
+-/*Página de produto*/
+-.product-main{
+-    margin: 0 10vw 0 10vw;
++footer{
++    margin: 0;
+     border: 0;
+-    padding: 0;
+-    max-width: 100vw;
++    padding: 0.8rem 1vw;
+     height: auto;
+-    display: flex;
+-    flex-direction: column;
+-    flex-wrap: nowrap;
+-    align-items: stretch;
+-    justify-content: flex-start;
+-    background-color: #e4dfb7;
+-    border-radius: 18px;
+-    box-shadow: 0 2px 12px rgba(46, 70, 55, 0.08);
+-}
+-
+-.product-info{
+-    margin: 0;
+-    border: 0;
+-    padding: 1rem;
++    width: auto;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+-    align-content: flex-start;
+-    justify-content: space-between;
+-    align-items: flex-start;
+-}
+-
+-.product-gallery{
+-    margin: 0;
+-    border: 0;
+-    padding: 0;
+-    display: flex;
+-    flex-direction: row;
+-    flex-wrap: nowrap;
++    justify-content: space-evenly;
+     align-items: center;
+-    justify-content: center;
+-}
+-
+-.product-gallery button{
+-    margin: 0;
+-    border: 0;
+-    padding: 0;
+-    height: 32px;
+-    width: 32px;
+-    border-radius: 50%;
+-    display: flex;
+-    justify-content: center;
+-    align-items: center;
+-}
+-
+-.product-display{
+-    margin: 1rem;
+-    border: 0;
+-    padding: 0;
+-    height: 530px;
+-    width: 512px;
+-    display: flex;
+-    overflow-x: auto;
+-    border-radius: 8px;
+-}
+-
+-.product-display::-webkit-scrollbar{
+-    display: none;
+-}
+-
+-.product-group{
+-    display: flex;
+-    align-items: center;
+-    justify-content: center;
+-    gap: 1em;
+-}
+-
+-.product-image{
+-    margin: 0;
+-    border: 0;
+-    padding: 0;
+-    height: 512px;
+-    width: 512px;
+-    flex: 0 0 512px;
+-    text-align: center;
+     align-content: center;
+-    border-radius: 8px;
+-    background-color: #a29e82;
+-}
+-
+-.product-image img{
+-    border-radius: 8px;
+-}
+-
+-.product-description{
+-    height: 40vw;
+-    width: 29vw;
+-}
+-
+-.product-description h1{
+-    text-align: center;
+-}
+-
+-
+-.product-sellers {
+-    width: inherit;
+-    text-align: center;
+-}
+-
+-.product-sellers h1{
+-    margin: 0;
+-    border: 0;
+-    padding: 1rem;
+-    background-color: #d5c595;
++    bottom: 0;
++    background-color: #e4dbb7;
++    font-size: 1.05rem;
++    color: #23422a;
++    z-index: 10;
++    border-top: 1px solid #f3eed8;
+ }
+ 
+-/*Página de busca*/
+-
+-.search-container {
+-    display: flex;
+-    flex-direction: row;
+-    align-items: flex-start;
+-    justify-content: center;
+-    gap: 2vw;
+-    margin: 0 4vw;
+-    width: 92vw;
+-    max-width: 100vw;
+-    box-sizing: border-box;
+-}
+-.search-main {
+-    flex: 1 1 0;
+-    background: #e4dfb7;
+-    border-radius: 18px;
+-    box-shadow: 0 2px 12px rgba(46, 70, 55, 0.08);
+-    margin: 1rem 0;
+-    padding: 2rem 2vw 2rem 2vw;
+-    min-width: 0;
+-    max-width: 100%;
+-    overflow: visible;
+-    display: flex;
+-    flex-direction: column;
+-    gap: 2rem;
+-}
+-.filter-drop {
+-    border-bottom: 1px solid #e4dfb7;
+-    margin-bottom: 1rem;
+-}
+-.filter-drop-toggle {
+-    display: flex;
+-    align-items: center;
+-    justify-content: space-between;
+-    width: 100%;
+-    background: none;
+-    border: none;
+-    font-size: 1.1rem;
+-    font-weight: bold;
+-    color: #2e4637;
+-    padding: 0.5em 0;
+-    cursor: pointer;
+-    outline: none;
+-    transition: color 0.2s;
+-}
+-.filter-drop-toggle .filter-icon {
+-    margin-right: 0.5em;
+-    transition: transform 0.2s;
+-}
+-.filter-drop-toggle[aria-expanded="true"] .filter-drop-arrow {
+-    transform: rotate(90deg);
+-}
+-.filter-drop-arrow {
+-    margin-left: 0.5em;
+-    width: 1em;
+-    height: 1em;
+-    transition: transform 0.2s;
+-}
+-.filter-drop-content {
+-    display: none;
+-    flex-direction: column;
+-    padding-left: 0.5em;
+-    margin-bottom: 0.5em;
+-}
+-.filter-drop-content.open {
+-    display: flex;
+-}
+-.filters-title {
+-    display: flex;
+-    align-items: center;
+-    gap: 0.6em;
+-    font-size: 1.3rem;
+-    font-weight: bold;
+-    color: #2e4637;
+-    margin-bottom: 1.2em;
+-}
+-aside.filter-sidebar {
+-    min-width: 260px;
+-    max-width: 320px;
+-    background: #f3f0d8;
+-    border-radius: 16px;
+-    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.07);
+-    padding: 2rem 1.2rem 1.2rem 1.2rem;
+-    margin-top: 1rem;
+-    margin-bottom: 1rem;
+-    position: sticky;
+-    top: 1rem;
+-    height: fit-content;
+-    overflow: visible;
+-}
+-.filter-group {
+-    margin-bottom: 2rem;
+-}
+-.filter-group label {
+-    display: flex;
+-    align-items: center;
+-    gap: 0.5em;
+-    margin-bottom: 0.5em;
+-    font-size: 1rem;
+-    cursor: pointer;
+-}
+-.filter-group-title {
+-    font-weight: bold;
+-    font-size: 1.1rem;
+-    margin-bottom: 0.7em;
+-    color: #2e4637;
+-}
+-.filter-icon {
+-    width: 18px;
+-    height: 18px;
+-    margin-right: 0.3em;
+-    vertical-align: middle;
+-}
+-.results-header {
+-    display: flex;
+-    align-items: center;
+-    justify-content: space-between;
+-    flex-wrap: wrap;
+-    gap: 1rem;
+-}
+-.results-title {
++.sobre-nos{
+     font-size: 2rem;
+     font-weight: bold;
+-    color: #2e4637;
+ }
+-.results-count {
+-    font-size: 1.1rem;
+-    color: #918240;
+-}
+-.results-grid {
+-    display: flex;
+-    flex-wrap: wrap;
+-    gap: 2rem;
+-    justify-content: flex-start;
+-    align-items: stretch;
+-    width: 100%;
+-}
+-@media (max-width: 1100px) {
+-    .search-container {
+-        flex-direction: column;
+-        align-items: stretch;
+-        gap: 0;
+-        margin: 0 1vw;
+-        width: 98vw;
+-    }
+-    aside.filter-sidebar {
+-        max-width: 100vw;
+-        width: 100%;
+-        position: static;
+-        margin-bottom: 1.5rem;
+-    }
+-    main.search-main {
+-        margin: 0;
+-        padding: 1rem 1vw;
+-    }
+-    .results-grid {
+-        gap: 1rem;
+-    }
+-}
+-
+-/*Miscelâneo*/
++
++/* Links */
+ a {
+     color: #918240;
+     text-decoration: none;
+@@ -582,12 +275,12 @@
+ a:hover, a:focus {
+     color: #433b1b;
+     background-color: #f3efd880;
+-    border-radius: 8px;
++    border-radius: 25%;
+     cursor: pointer;
+ }
+ 
+-
+-button{
++/* Buttons */
++button, input[type="button"], input[type="submit"], .btn {
+     background-color: #b7a352;
+     color: #fff;
+     border: none;
+@@ -599,49 +292,21 @@
+     box-shadow: 0 1px 4px rgba(46, 70, 55, 0.08);
+     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+ }
+-button:hover{
++button:hover, input[type="button"]:hover, input[type="submit"]:hover, .btn:hover {
+     background-color: #918440;
+     color: #f4f2e6;
+     box-shadow: 0 2px 8px rgba(46, 70, 55, 0.13);
+ }
+ 
+-
+-
+ @media (max-width: 800px) {
+-    .search-box{
+-        width: 90%;
+-    }
+-    .index-main {
+-        margin-left: 0;
+-        margin-right: 0;
+-        width: 100%;
+-        border-radius: 0;
+-    }
+-    .product-main {
++    main {
+         margin-left: 0;
+         margin-right: 0;
+         width: 100%;
+-        border-radius: 0;
+     }
+     .carousel{
+         margin: 0;
+         margin-top: 1rem;
+         margin-bottom: 1rem;
+     }
+-    .card{
+-        height: 210px;
+-        width: 158px;
+-    }
+-    .card img{
+-        width: 100px;
+-        height: 100px;
+-    }
+-    .result-card {
+-			width: 98vw;
+-			min-width: 0;
+-		}
+-    .results-grid {
+-        flex-direction: column;
+-        align-items: center;
+-    }
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c3b708ad-f732-4c1f-8780-378962fb79ce\" name=\"Changes\" comment=\"\uD83D\uDD28 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"al-henrique-dias\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/al-henrique-dias/ChapeleiroWeb.git\",\r\n    \"accountId\": \"96fa54ed-84e1-47cb-938c-79bf3fe20469\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"35AvsqoNQ6Bn5IcDPWP5vMYwlOu\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.ChapeleirowebApplication.executor\": \"Run\",\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"Henrique\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/templates\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"MavenSettings\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\\src\\main\\resources\\templates\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\\src\\main\\resources\\templates\" />\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\\src\\main\\java\\br\\ufms\\facom\\progweb\\chapeleiroweb\\view\" />\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\\.idea\" />\r\n      <recent name=\"C:\\Users\\Henrique\\Documents\\UFMS\\Prog Web\\chapeleiroweb\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c3b708ad-f732-4c1f-8780-378962fb79ce\" name=\"Changes\" comment=\"\" />\r\n      <created>1762565902826</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1762565902826</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"\uD83D\uDD27 Atualização de diretório/arquivo - Uso oficial do CSS do static resources\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1764124855793</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1764124855793</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"\uD83D\uDD27 Atualização de diretório/arquivo - Uso oficial do CSS do static resources\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1764124972316</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1764124972316</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"\uD83D\uDD28 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1764128436600</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1764128436600</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\" Atualização de diretório/arquivo - Uso oficial do CSS do static resources\" />\r\n    <MESSAGE value=\" Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\" Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/.idea/workspace.xml	(date 1764130429153)
+@@ -4,7 +4,20 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c3b708ad-f732-4c1f-8780-378962fb79ce" name="Changes" comment="🔨 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas." />
++    <list default="true" id="c3b708ad-f732-4c1f-8780-378962fb79ce" name="Changes" comment="🔨 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.">
++      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-colecao-aventura.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-colecao-inverno.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-colecao-verao.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/colecao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/colecao.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sobre-nos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sobre-nos.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -53,7 +66,7 @@
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "git-widget-placeholder": "Henrique",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/templates",
++    "last_opened_file_path": "C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/static/images",
+     "project.structure.last.edited": "Modules",
+     "project.structure.proportion": "0.15",
+     "project.structure.side.proportion": "0.2",
+@@ -62,9 +75,11 @@
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\static\images" />
+       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\templates" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\static\images" />
+       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\templates" />
+       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\java\br\ufms\facom\progweb\chapeleiroweb\view" />
+       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\.idea" />
+@@ -110,7 +125,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1764128436600</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="🔨 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.">
++      <option name="closed" value="true" />
++      <created>1764128678099</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1764128678099</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+Index: target/classes/static/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* Custom styled checkboxes */\r\n\r\nhtml, body{max-width: 100vw; max-height: 100vw;}\r\nbody{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-items: stretch;\r\n    background-color: #f4f1e6;\r\n    font-family: 'Segoe UI', Arial, sans-serif;\r\n    font-size: 1.08rem;\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n    color: #2e4637;\r\n}\r\n\r\nheader{\r\n    margin: 0 0 1rem 0;\r\n    border: 0;\r\n    padding: 1rem 1.2rem 1rem 1.2rem;\r\n    max-width: 100vw;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    align-content: center;\r\n    background-color: #e4e1b7;\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.07);\r\n}\r\n\r\n.logo{\r\n    margin: 0 1rem 0 0;\r\n    border: 0;\r\n    padding: 0.4rem;\r\n    height: 200px;\r\n    width: 200px;\r\n    background-color: #f3efd828; /* lighter pastel */\r\n    border-radius: 50%;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    box-shadow: 0 1px 6px rgba(46, 70, 55, 0.08);\r\n}\r\n\r\n.logo img{\r\n    height: 200px;\r\n    width: 200px;\r\n}\r\n\r\n.search-box{\r\n    margin: 0 1rem;\r\n    border: 0;\r\n    padding: 0.4rem 0.8rem;\r\n    height: auto;\r\n    width: 50%;\r\n    background-color: #f3f0d8;\r\n    border-radius: 10px;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    font-size: 1rem;\r\n    box-shadow: 0 1px 4px rgba(46, 70, 55, 0.06);\r\n}\r\n\r\n.search-box input{\r\n    width: 95%;\r\n    height: 100%;\r\n}\r\n\r\n.search-box input:focus{\r\n    background-color: whitesmoke;\r\n}\r\n\r\n.search-box button{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 32px;\r\n    width: 32px;\r\n    border-radius: 50%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nnav{\r\n    margin: 0 0 1rem 0;\r\n    border: 0;\r\n    padding: 0.4rem 0;\r\n    height: auto;\r\n    width: auto;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    justify-content: center;\r\n    background-color: #e4dfb7;\r\n    gap: 1rem;\r\n    box-shadow: 0 1px 4px rgba(46, 70, 55, 0.05);\r\n}\r\n\r\n.chip-box{\r\n    margin: 0 0.5rem;\r\n    border: 0;\r\n    padding: 0.4rem 0;\r\n    height: auto;\r\n    width: auto;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    align-content: space-evenly;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    gap: 0.6rem;\r\n}\r\n\r\n.chip{\r\n    margin: 0.4rem;\r\n    border: 0;\r\n    padding: 0.4rem 1rem;\r\n    height: auto;\r\n    width: auto;\r\n    list-style-type: none;\r\n    background-color: #fff8bf;\r\n    border-radius: 16px;\r\n    font-size: 1rem;\r\n    color: #2e4637;\r\n    box-shadow: 0 1px 4px rgba(46, 70, 55, 0.07);\r\n    transition: background 0.2s, color 0.2s;\r\n}\r\n.chip:hover {\r\n    cursor: pointer;\r\n    background-color: #e4d6b7;\r\n    color: #2d291b;\r\n    font-weight: bold;\r\n}\r\n\r\nfooter{\r\n    margin: 1rem 0 0 0;\r\n    border: 0;\r\n    padding: 0.8rem 1vw;\r\n    max-width: 100vw;\r\n    height: auto;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    align-content: center;\r\n    bottom: 0;\r\n    background-color: #e4dbb7;\r\n    font-size: 1.05rem;\r\n    color: #23422a;\r\n    z-index: 10;\r\n    border-top: 1px solid #f3eed8;\r\n}\r\n\r\n.sobre-nos{\r\n    font-size: 2rem;\r\n    font-weight: bold;\r\n}\r\n\r\n/*Página inicial*/\r\n.index-main{\r\n    margin: 0 10vw 0 10vw;\r\n    border: 0;\r\n    padding: 0;\r\n    max-width: 100vw;\r\n    height: auto;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    align-items: stretch;\r\n    justify-content: flex-start;\r\n    background-color: #e4dfb7;\r\n    border-radius: 18px;\r\n    box-shadow: 0 2px 12px rgba(46, 70, 55, 0.08);\r\n}\r\n\r\n.carousel{\r\n    margin: 1rem;\r\n    border: 0;\r\n    padding: 0;\r\n    height: auto;\r\n    width: inherit;\r\n    display: flex;\r\n    overflow-x: auto;\r\n    border-radius: 8px;\r\n}\r\n\r\n.carousel::-webkit-scrollbar{\r\n    display: none;\r\n}\r\n\r\n.carousel-group{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    gap: 1em;\r\n    padding-right: 1em;\r\n    animation: spin 32s infinite linear;\r\n}\r\n\r\n.carousel-item{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 400px;\r\n    width: 1024px;\r\n    flex: 0 0 256px;\r\n    text-align: center;\r\n    align-content: center;\r\n    border-radius: 8px;\r\n    background-color: #a29e82;\r\n}\r\n\r\n.carousel-item img{\r\n    border-radius: 8px;\r\n}\r\n\r\n@keyframes spin{\r\n    from{translate: 0;}\r\n    to{translate: -100%;}\r\n}\r\n\r\n.card-box{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 1rem;\r\n    height: auto;\r\n    width: inherit;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    align-content: space-around;\r\n    background-color: #f4f0e6;\r\n}\r\n\r\n.card{\r\n    background-color: #d5c595;\r\n    border-radius: 14px;\r\n    font-size: 1.05rem;\r\n\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.09);\r\n    transition: background 0.2s, color 0.2s, box-shadow 0.2s;\r\n}\r\n.card {\r\n    margin: 0.5rem;\r\n    border: 0;\r\n    padding: 1rem 0.5rem 1rem 0.5rem;\r\n    height: 360px;\r\n    width: 256px;\r\n    border-radius: 14px;\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.09);\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    color: #23422a;\r\n    background: #d5c595;\r\n    transition: background 0.2s, color 0.2s, box-shadow 0.2s;\r\n    text-align: center;\r\n}\r\n.card:hover {\r\n    background: #e4d8b7;\r\n    color: #1b2d22;\r\n    box-shadow: 0 4px 16px rgba(46, 70, 55, 0.13);\r\n}\r\n.card img {\r\n    border-radius: 10px;\r\n    width: 180px;\r\n    height: 180px;\r\n    object-fit: cover;\r\n    margin-bottom: 1rem;\r\n    background: #a29e82;\r\n}\r\n.card-title {\r\n    font-size: 1.2rem;\r\n    font-weight: bold;\r\n    margin-bottom: 0.5rem;\r\n}\r\n.card-description {\r\n    font-size: 1rem;\r\n    color: #23422a;\r\n    margin-bottom: 0.5rem;\r\n}\r\n.card-meta {\r\n    font-size: 0.95rem;\r\n    color: #918240;\r\n}\r\n\r\n/*Página de produto*/\r\n.product-main{\r\n    margin: 0 10vw 0 10vw;\r\n    border: 0;\r\n    padding: 0;\r\n    max-width: 100vw;\r\n    height: auto;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    align-items: stretch;\r\n    justify-content: flex-start;\r\n    background-color: #e4dfb7;\r\n    border-radius: 18px;\r\n    box-shadow: 0 2px 12px rgba(46, 70, 55, 0.08);\r\n}\r\n\r\n.product-info{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    align-content: flex-start;\r\n    justify-content: space-between;\r\n    align-items: flex-start;\r\n}\r\n\r\n.product-gallery{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.product-gallery button{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 32px;\r\n    width: 32px;\r\n    border-radius: 50%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.product-display{\r\n    margin: 1rem;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 530px;\r\n    width: 512px;\r\n    display: flex;\r\n    overflow-x: auto;\r\n    border-radius: 8px;\r\n}\r\n\r\n.product-display::-webkit-scrollbar{\r\n    display: none;\r\n}\r\n\r\n.product-group{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    gap: 1em;\r\n}\r\n\r\n.product-image{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 0;\r\n    height: 512px;\r\n    width: 512px;\r\n    flex: 0 0 512px;\r\n    text-align: center;\r\n    align-content: center;\r\n    border-radius: 8px;\r\n    background-color: #a29e82;\r\n}\r\n\r\n.product-image img{\r\n    border-radius: 8px;\r\n}\r\n\r\n.product-description{\r\n    height: 40vw;\r\n    width: 29vw;\r\n}\r\n\r\n.product-description h1{\r\n    text-align: center;\r\n}\r\n\r\n\r\n.product-sellers {\r\n    width: inherit;\r\n    text-align: center;\r\n}\r\n\r\n.product-sellers h1{\r\n    margin: 0;\r\n    border: 0;\r\n    padding: 1rem;\r\n    background-color: #d5c595;\r\n}\r\n\r\n/*Página de busca*/\r\n\r\n.search-container {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: flex-start;\r\n    justify-content: center;\r\n    gap: 2vw;\r\n    margin: 0 4vw;\r\n    width: 92vw;\r\n    max-width: 100vw;\r\n    box-sizing: border-box;\r\n}\r\n.search-main {\r\n    flex: 1 1 0;\r\n    background: #e4dfb7;\r\n    border-radius: 18px;\r\n    box-shadow: 0 2px 12px rgba(46, 70, 55, 0.08);\r\n    margin: 1rem 0;\r\n    padding: 2rem 2vw 2rem 2vw;\r\n    min-width: 0;\r\n    max-width: 100%;\r\n    overflow: visible;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 2rem;\r\n}\r\n.filter-drop {\r\n    border-bottom: 1px solid #e4dfb7;\r\n    margin-bottom: 1rem;\r\n}\r\n.filter-drop-toggle {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    width: 100%;\r\n    background: none;\r\n    border: none;\r\n    font-size: 1.1rem;\r\n    font-weight: bold;\r\n    color: #2e4637;\r\n    padding: 0.5em 0;\r\n    cursor: pointer;\r\n    outline: none;\r\n    transition: color 0.2s;\r\n}\r\n.filter-drop-toggle .filter-icon {\r\n    margin-right: 0.5em;\r\n    transition: transform 0.2s;\r\n}\r\n.filter-drop-toggle[aria-expanded=\"true\"] .filter-drop-arrow {\r\n    transform: rotate(90deg);\r\n}\r\n.filter-drop-arrow {\r\n    margin-left: 0.5em;\r\n    width: 1em;\r\n    height: 1em;\r\n    transition: transform 0.2s;\r\n}\r\n.filter-drop-content {\r\n    display: none;\r\n    flex-direction: column;\r\n    padding-left: 0.5em;\r\n    margin-bottom: 0.5em;\r\n}\r\n.filter-drop-content.open {\r\n    display: flex;\r\n}\r\n.filters-title {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 0.6em;\r\n    font-size: 1.3rem;\r\n    font-weight: bold;\r\n    color: #2e4637;\r\n    margin-bottom: 1.2em;\r\n}\r\naside.filter-sidebar {\r\n    min-width: 260px;\r\n    max-width: 320px;\r\n    background: #f3f0d8;\r\n    border-radius: 16px;\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.07);\r\n    padding: 2rem 1.2rem 1.2rem 1.2rem;\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    position: sticky;\r\n    top: 1rem;\r\n    height: fit-content;\r\n    overflow: visible;\r\n}\r\n.filter-group {\r\n    margin-bottom: 2rem;\r\n}\r\n.filter-group label {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 0.5em;\r\n    margin-bottom: 0.5em;\r\n    font-size: 1rem;\r\n    cursor: pointer;\r\n}\r\n.filter-group-title {\r\n    font-weight: bold;\r\n    font-size: 1.1rem;\r\n    margin-bottom: 0.7em;\r\n    color: #2e4637;\r\n}\r\n.filter-icon {\r\n    width: 18px;\r\n    height: 18px;\r\n    margin-right: 0.3em;\r\n    vertical-align: middle;\r\n}\r\n.results-header {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    flex-wrap: wrap;\r\n    gap: 1rem;\r\n}\r\n.results-title {\r\n    font-size: 2rem;\r\n    font-weight: bold;\r\n    color: #2e4637;\r\n}\r\n.results-count {\r\n    font-size: 1.1rem;\r\n    color: #918240;\r\n}\r\n.results-grid {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    gap: 2rem;\r\n    justify-content: flex-start;\r\n    align-items: stretch;\r\n    width: 100%;\r\n}\r\n@media (max-width: 1100px) {\r\n    .search-container {\r\n        flex-direction: column;\r\n        align-items: stretch;\r\n        gap: 0;\r\n        margin: 0 1vw;\r\n        width: 98vw;\r\n    }\r\n    aside.filter-sidebar {\r\n        max-width: 100vw;\r\n        width: 100%;\r\n        position: static;\r\n        margin-bottom: 1.5rem;\r\n    }\r\n    main.search-main {\r\n        margin: 0;\r\n        padding: 1rem 1vw;\r\n    }\r\n    .results-grid {\r\n        gap: 1rem;\r\n    }\r\n}\r\n\r\n/*Miscelâneo*/\r\na {\r\n    color: #918240;\r\n    text-decoration: none;\r\n    transition: color 0.2s;\r\n}\r\na:hover, a:focus {\r\n    color: #433b1b;\r\n    background-color: #f3efd880;\r\n    border-radius: 8px;\r\n    cursor: pointer;\r\n}\r\n\r\n\r\nbutton{\r\n    background-color: #b7a352;\r\n    color: #fff;\r\n    border: none;\r\n    border-radius: 8px;\r\n    padding: 0.5em 1.2em;\r\n    font-size: 1rem;\r\n    font-family: inherit;\r\n    cursor: pointer;\r\n    box-shadow: 0 1px 4px rgba(46, 70, 55, 0.08);\r\n    transition: background 0.2s, color 0.2s, box-shadow 0.2s;\r\n}\r\nbutton:hover{\r\n    background-color: #918440;\r\n    color: #f4f2e6;\r\n    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.13);\r\n}\r\n\r\n\r\n\r\n@media (max-width: 800px) {\r\n    .search-box{\r\n        width: 90%;\r\n    }\r\n    .index-main {\r\n        margin-left: 0;\r\n        margin-right: 0;\r\n        width: 100%;\r\n        border-radius: 0;\r\n    }\r\n    .product-main {\r\n        margin-left: 0;\r\n        margin-right: 0;\r\n        width: 100%;\r\n        border-radius: 0;\r\n    }\r\n    .carousel{\r\n        margin: 0;\r\n        margin-top: 1rem;\r\n        margin-bottom: 1rem;\r\n    }\r\n    .card{\r\n        height: 210px;\r\n        width: 158px;\r\n    }\r\n    .card img{\r\n        width: 100px;\r\n        height: 100px;\r\n    }\r\n    .result-card {\r\n\t\t\twidth: 98vw;\r\n\t\t\tmin-width: 0;\r\n\t\t}\r\n    .results-grid {\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/static/style.css b/target/classes/static/style.css
+--- a/target/classes/static/style.css	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/target/classes/static/style.css	(date 1764130429128)
+@@ -188,8 +188,8 @@
+     margin: 1rem;
+     border: 0;
+     padding: 0;
+-    height: auto;
+-    width: inherit;
++    height: 400;
++    width: 1024;
+     display: flex;
+     overflow-x: auto;
+     border-radius: 8px;
+Index: target/classes/templates/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>O Senhor dos Chapéis</title>\r\n    <link rel=\"stylesheet\" href=\"/style.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <figure class=\"logo\">\r\n            <a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n        </figure>\r\n        <form method=\"get\" class=\"search-box\">\r\n            <input name=\"search\" type=\"text\" placeholder=\"buscar\" id=\"search-box\" class=\"search-box\"></input>\r\n            <button type=\"submit\">\r\n                <img src=\"/images/lupa.png\" alt=\"search-icon\" class=\"search-icon\" height=\"32px\" width=\"32px\">\r\n            </button>\r\n        </form>\r\n    </header>\r\n    <nav>\r\n        <ul class=\"chip-box\">\r\n            <a href=\"/busca?categoria=formais\"><li class=\"chip\"><span>Formais</span></li></a>\r\n            <a href=\"/busca?categoria=formais\"><li class=\"chip\"><span>Casuais</span></li></a>\r\n            <a href=\"/busca?categoria=esportivos\"><li class=\"chip\"><span>Esportivos</span></li></a>\r\n            <a href=\"/busca?categoria=tradicionais\"><li class=\"chip\"><span>Tradicionais</span></li></a>\r\n            <a href=\"/busca?categoria=profissionais\"><li class=\"chip\"><span>Profissionais</span></li></a>\r\n            <a href=\"/busca?categoria=tematicos\"><li class=\"chip\"><span>Temáticos</span></li></a>\r\n            <a href=\"/busca?categoria=femininos\"><li class=\"chip\"><span>Femininos</span></li></a>\r\n            <a href=\"/busca?categoria=masculinos\"><li class=\"chip\"><span>Masculinos</span></li></a>\r\n            <a href=\"/busca?categoria=outros\"><li class=\"chip\"><span>Outros</span></li></a>\r\n        </ul>\r\n    </nav>\r\n    <main class=\"index-main\">\r\n        <section class=\"carousel\">\r\n            <div class=\"carousel-group\">\r\n                <a href=\"/colecao\"><picture class=\"carousel-item\"><img src=\"/images/placeholder-suspeito.png\" alt=\"item\"></picture></a>\r\n            </div>\r\n            <div aria-hidden=\"true\" class=\"carousel-group\">\r\n                <a href=\"/colecao\"><picture class=\"carousel-item\"><img src=\"/images/placeholder-suspeito.png\" alt=\"item\"></picture></a>\r\n            </div>\r\n            <div aria-hidden=\"true\" class=\"carousel-group\">\r\n                <a href=\"/colecao\"><picture class=\"carousel-item\"><img src=\"/images/placeholder-suspeito.png\" alt=\"item\"></picture></a>\r\n            </div>\r\n        </section>\r\n        <section class=\"card-box\">\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 1\">\r\n                <div class=\"card-title\">Chapéu Fedora</div>\r\n                <div class=\"card-description\">Clássico, elegante, cor preta</div>\r\n                <div class=\"card-meta\">Categoria: Formais</div>\r\n            </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 2\">\r\n                <div class=\"card-title\">Chapéu Panamá</div>\r\n                <div class=\"card-description\">Casual, leve, cor branca</div>\r\n                <div class=\"card-meta\">Categoria: Casuais</div>\r\n            </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 3\">\r\n                <div class=\"card-title\">Chapéu Bucket</div>\r\n                <div class=\"card-description\">Esportivo, resistente, cor azul</div>\r\n                <div class=\"card-meta\">Categoria: Esportivos</div>\r\n                </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 4\">\r\n                <div class=\"card-title\">Chapéu Côco</div>\r\n                <div class=\"card-description\">Tradicional, rígido, cor marrom</div>\r\n                <div class=\"card-meta\">Categoria: Tradicionais</div>\r\n            </picture></a>\r\n        </section>\r\n        <section class=\"card-box\">\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 5\">\r\n                <div class=\"card-title\">Chapéu Chef</div>\r\n                <div class=\"card-description\">Profissional, alto, cor branca</div>\r\n                <div class=\"card-meta\">Categoria: Profissionais</div>\r\n            </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 6\">\r\n                <div class=\"card-title\">Chapéu de Bruxa</div>\r\n                <div class=\"card-description\">Temático, divertido, cor preta</div>\r\n                <div class=\"card-meta\">Categoria: Temáticos</div>\r\n            </picture></a>\r\n            <a href=\"/produto\"><picture class=\"card\">\r\n                <img src=\"/images/card-placeholder.png\" alt=\"Chapéu 7\">\r\n                <div class=\"card-title\">Chapéu Cloche</div>\r\n                <div class=\"card-description\">Feminino, vintage, cor vermelha</div>\r\n                <div class=\"card-meta\">Categoria: Femininos</div>\r\n            </picture></a>\r\n        </section>\r\n    </main>\r\n    <footer>\r\n        <figure class=\"logo\">\r\n            <a href=\"/\"><img src=\"/images/logo.png\" alt=\"Logo - O Senhor dos Chapéis\"></a>\r\n        </figure>\r\n        <a href=\"/sobre-nos\"><span class=\"sobre-nos\">Sobre nós</span></a>\r\n    </footer>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/templates/index.html b/target/classes/templates/index.html
+--- a/target/classes/templates/index.html	(revision 36ba9def609543ab6f764bb94a8a431bc30cdc8f)
++++ b/target/classes/templates/index.html	(date 1764130355177)
+@@ -11,7 +11,7 @@
+         <figure class="logo">
+             <a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+         </figure>
+-        <form method="get" class="search-box">
++        <form action="/busca" method="get" target="_self" class="search-box">
+             <input name="search" type="text" placeholder="buscar" id="search-box" class="search-box"></input>
+             <button type="submit">
+                 <img src="/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+@@ -34,13 +34,13 @@
+     <main class="index-main">
+         <section class="carousel">
+             <div class="carousel-group">
+-                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
++                <a href="/colecao"><picture class="carousel-item"><img src="/images/banner-colecao-aventura.png" alt="item"></picture></a>
+             </div>
+             <div aria-hidden="true" class="carousel-group">
+-                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
++                <a href="/colecao"><picture class="carousel-item"><img src="/images/banner-colecao-inverno.png" alt="item"></picture></a>
+             </div>
+             <div aria-hidden="true" class="carousel-group">
+-                <a href="/colecao"><picture class="carousel-item"><img src="/images/placeholder-suspeito.png" alt="item"></picture></a>
++                <a href="/colecao"><picture class="carousel-item"><img src="/images/banner-colecao-verao.png" alt="item"></picture></a>
+             </div>
+         </section>
+         <section class="card-box">

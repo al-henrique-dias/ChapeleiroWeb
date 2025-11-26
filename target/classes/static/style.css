@@ -188,8 +188,8 @@ footer{
     margin: 1rem;
     border: 0;
     padding: 0;
-    height: 400;
-    width: 1024;
+    height: auto;
+    width: inherit;
     display: flex;
     overflow-x: auto;
     border-radius: 8px;
