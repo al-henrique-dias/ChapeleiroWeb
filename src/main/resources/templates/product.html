@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapéu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <figure class="logo">
+            <a href=""><img src="../static/images/Imagem do WhatsApp de 2025-11-22 à(s) 10.29.46_4b401b0d.png" alt="Logo - O Senhor dos Chapéis"></a>
+        </figure>
+        <form method="get" class="search-box">
+            <input name="search" type="text" placeholder="buscar" id="search-box" class="search-box"></input>
+            <button type="submit">
+                <img src="../static/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+            </button>
+        </form>
+    </header>
+    <main class="product-main">
+        <div class="product-info">
+            <section class="product-gallery">
+                <button id="previousButton"><img src="../static/images/previous.png" height="16px" width="16px"></button>
+                <div id="product-display" class="product-display">
+                    <div class="product-group">
+                        <figure class="product-image"><img src="../static/images/previous.png" alt="product-image"></figure>
+                    </div>
+                    <div aria-hidden="true" class="product-group">
+                        <figure class="product-image"><img src="../static/images/next.png" alt="product-image"></figure>
+                    </div>
+                    <div aria-hidden="true" class="product-group">
+                        <figure class="product-image"><img src="../static/images/lupa.png" alt="product-image"></figure>
+                    </div>
+                </div>
+                <button id="nextButton"><img src="../static/images/next.png" height="16px" width="16px"></button>
+            </section>
+            <section class="product-description">
+                <h1>Produto</h1>
+                <p>Descrição...</p>
+            </section>
+        </div>
+        <div class="product-sellers">
+            <h1>Revendedores</h1>
+            <section class="card-box">
+                <a href=""><picture class="card">
+                    <img src="../static/images/card-placeholder.png" alt="item">
+                    <p class="card-description">chapéu</p>
+                </picture></a>
+                <a href=""><picture class="card">
+                    <img src="../static/images/card-placeholder.png" alt="item">
+                    <p class="card-description">chapéu</p>
+                </picture></a>
+                <a href=""><picture class="card">
+                    <img src="../static/images/card-placeholder.png" alt="item">
+                    <p class="card-description">chapéu</p>
+                </picture></a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <figure class="logo">
+            <a href="/"><img src="../static/images/Imagem do WhatsApp de 2025-11-22 à(s) 10.29.46_4b401b0d.png" alt="Logo - O Senhor dos Chapéis"></a>
+        </figure>
+        <a href=""><span class="sobre-nos">Sobre nós</span></a>
+    </footer>
+    <script>
+        let productScroll = document.getElementById("product-display");
+        let previousButton = document.getElementById("previousButton");
+        let nextButton = document.getElementById("nextButton");
+
+        previousButton.addEventListener("click", ()=>{
+            productScroll.scrollLeft -= 512;
+        });
+        nextButton.addEventListener("click", ()=>{
+            productScroll.scrollLeft += 512;
+        });
+    </script>
+</body>
+</html>
