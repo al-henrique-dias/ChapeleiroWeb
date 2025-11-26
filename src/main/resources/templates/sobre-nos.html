@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sobre Nós - O Senhor dos Chapéis</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <header>
+            <figure class="logo">
+                <a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+            </figure>
+            <form method="get" class="search-box">
+                <input name="search" type="text" placeholder="buscar" id="search-box" class="search-box">
+                <button type="submit">
+                    <img src="/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+                </button>
+            </form>
+        </header>
+
+        <!-- MAIN: Conteúdo principal da página "Sobre Nós" -->
+        <main
+            class="about-main"
+            style="max-width: 900px; margin: 2rem auto; padding: 0 1rem"
+        >
+            <!-- Título principal usando tag semântica h1 -->
+            <h1
+                style="
+                    font-size: 2.5rem;
+                    color: #2e4637;
+                    border-bottom: 2px solid #5a8d6e;
+                    padding-bottom: 0.5rem;
+                    margin-bottom: 2rem;
+                "
+            >
+                Sobre O Senhor dos Chapéis
+            </h1>
+
+            <!-- SECTION: Missão e Visão - Usando tags semânticas section e article -->
+            <section
+                class="mission-vision"
+                style="
+                    margin-bottom: 3rem;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 2rem;
+                "
+            >
+                <article class="mission">
+                    <h2
+                        style="
+                            font-size: 1.75rem;
+                            color: #5a8d6e;
+                            margin-bottom: 1rem;
+                        "
+                    >
+                        Nossa Missão
+                    </h2>
+                    <p style="line-height: 1.6">
+                        Nossa missão é ser a principal ponte entre os amantes de
+                        chapéus e os melhores artesãos e revendedores do Brasil.
+                        Acreditamos que um chapéu é mais do que um acessório; é
+                        uma extensão da personalidade, uma peça de história e um
+                        item de estilo atemporal. Conectamos você à peça
+                        perfeita que conta a sua história.
+                    </p>
+                </article>
+
+                <article class="vision">
+                    <h2
+                        style="
+                            font-size: 1.75rem;
+                            color: #5a8d6e;
+                            margin-bottom: 1rem;
+                        "
+                    >
+                        Nossa Visão
+                    </h2>
+                    <p style="line-height: 1.6">
+                        Visualizamos um futuro onde a tradição e a inovação se
+                        encontram na cabeça de cada brasileiro. Queremos
+                        democratizar o acesso a chapéus de alta qualidade, de
+                        fedoras clássicos a modelos modernos e exclusivos,
+                        promovendo a cultura do chapéu em todas as suas formas.
+                    </p>
+                </article>
+            </section>
+
+            <!-- ARTICLE: História - Usando a tag article para um bloco de conteúdo auto-contido -->
+            <article class="history" style="margin-bottom: 3rem">
+                <h2
+                    style="
+                        font-size: 1.75rem;
+                        color: #5a8d6e;
+                        margin-bottom: 1.5rem;
+                        border-top: 1px dashed #ccc;
+                        padding-top: 1.5rem;
+                    "
+                >
+                    Nossa História
+                </h2>
+                <p style="line-height: 1.6; margin-bottom: 1rem">
+                    Tudo começou com uma paixão por chapelaria em 2024.
+                    Percebemos a dificuldade de encontrar um catálogo
+                    centralizado de revendedores e modelos de chapéus artesanais
+                    e de grife no país. "O Senhor dos Chapéis" nasceu para
+                    resolver esse problema, transformando-se em um marketplace
+                    dedicado a celebrar a arte de cobrir a cabeça.
+                </p>
+                <p style="line-height: 1.6">
+                    Desde então, crescemos e expandimos nossa rede, mas o nosso
+                    compromisso continua o mesmo: qualidade, autenticidade e
+                    paixão por chapéus.
+                </p>
+            </article>
+
+            <!-- ASIDE: Foco em Valores - Bloco lateral (ou de destaque) usando a tag semântica aside -->
+            <aside
+                class="values"
+                style="
+                    background-color: #f7f7f7;
+                    padding: 2rem;
+                    border-radius: 8px;
+                    border-left: 5px solid #2e4637;
+                "
+            >
+                <h2
+                    style="
+                        font-size: 1.5rem;
+                        color: #2e4637;
+                        margin-bottom: 1rem;
+                    "
+                >
+                    Nossos Valores Fundamentais
+                </h2>
+                <ul style="list-style-type: none; padding-left: 0">
+                    <li style="margin-bottom: 0.5rem">
+                        <strong style="color: #5a8d6e">Autenticidade:</strong>
+                        Valorizamos o trabalho artesanal e a originalidade de
+                        cada peça.
+                    </li>
+                    <li style="margin-bottom: 0.5rem">
+                        <strong style="color: #5a8d6e">Conexão:</strong>
+                        Facilitamos a união entre produtores e consumidores.
+                    </li>
+                    <li style="margin-bottom: 0.5rem">
+                        <strong style="color: #5a8d6e">Qualidade:</strong>
+                        Oferecemos apenas produtos que atendem aos mais altos
+                        padrões.
+                    </li>
+                </ul>
+            </aside>
+        </main>
+
+        <!-- FOOTER: Estrutura idêntica às outras páginas -->
+        <footer>
+            <figure class="logo">
+                <a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+            </figure>
+            <a href="/sobre-nos"><span class="sobre-nos">Sobre nós</span></a>
+        </footer>
+    </body>
+</html>

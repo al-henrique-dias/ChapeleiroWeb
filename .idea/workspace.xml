@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3b708ad-f732-4c1f-8780-378962fb79ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufms/facom/progweb/chapeleiroweb/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufms/facom/progweb/chapeleiroweb/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c3b708ad-f732-4c1f-8780-378962fb79ce" name="Changes" comment="🔧 Atualização de diretório/arquivo - Uso oficial do CSS do static resources">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufms/facom/progweb/chapeleiroweb/controller/BuscaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufms/facom/progweb/chapeleiroweb/controller/ColecaoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufms/facom/progweb/chapeleiroweb/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufms/facom/progweb/chapeleiroweb/controller/SobreNosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/colecao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sobre-nos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Imagem do WhatsApp de 2025-11-22 à(s) 10.29.46_4b401b0d.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/static/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +35,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "al-henrique-dias"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/al-henrique-dias/ChapeleiroWeb.git",
+    "accountId": "96fa54ed-84e1-47cb-938c-79bf3fe20469"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="35AvsqoNQ6Bn5IcDPWP5vMYwlOu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,8 +66,9 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Henrique",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Henrique/Documents/UFMS/Prog Web/chapeleiroweb/src/main/resources/templates",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -57,7 +76,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\templates" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\java\br\ufms\facom\progweb\chapeleiroweb\view" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\.idea" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb" />
@@ -78,6 +101,27 @@
       <option name="presentableId" value="Default" />
       <updated>1762565902826</updated>
     </task>
+    <task id="LOCAL-00001" summary="🔧 Atualização de diretório/arquivo - Uso oficial do CSS do static resources">
+      <option name="closed" value="true" />
+      <created>1764124855793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764124855793</updated>
+    </task>
+    <task id="LOCAL-00002" summary="🔧 Atualização de diretório/arquivo - Uso oficial do CSS do static resources">
+      <option name="closed" value="true" />
+      <created>1764124972316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764124972316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Atualização de diretório/arquivo - Uso oficial do CSS do static resources" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Atualização de diretório/arquivo - Uso oficial do CSS do static resources" />
   </component>
 </project>

@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resultados da Busca - O Senhor dos Chapéis</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<header>
+		<figure class="logo">
+			<a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+		</figure>
+		<form method="get" class="search-box">
+			<input name="search" type="text" placeholder="buscar" id="search-box" class="search-box">
+			<button type="submit">
+				<img src="/images/lupa.png" alt="search-icon" class="search-icon" height="32px" width="32px">
+			</button>
+		</form>
+	</header>
+	<div class="search-container">
+		<aside class="filter-sidebar">
+			<div class="filters-title">
+				<img src="/images/filter.png" class="filter-icon" alt="icon">
+				Filtros
+			</div>
+			<form id="filters-form">
+				<div class="filter-drop filter-group">
+					<button type="button" class="filter-drop-toggle" aria-expanded="false">
+						<span>Categorias</span>
+						<img src="/images/next.png" class="filter-drop-arrow"></img>
+					</button>
+					<div class="filter-drop-content">
+						<label><input type="checkbox" name="category" value="formais"> Formais</label>
+						<label><input type="checkbox" name="category" value="casuais"> Casuais</label>
+						<label><input type="checkbox" name="category" value="esportivos"> Esportivos</label>
+						<label><input type="checkbox" name="category" value="tradicionais"> Tradicionais</label>
+						<label><input type="checkbox" name="category" value="profissionais"> Profissionais</label>
+						<label><input type="checkbox" name="category" value="tematicos"> Temáticos</label>
+						<label><input type="checkbox" name="category" value="femininos"> Femininos</label>
+						<label><input type="checkbox" name="category" value="masculinos"> Masculinos</label>
+						<label><input type="checkbox" name="category" value="outros"> Outros</label>
+					</div>
+				</div>
+                <div class="filter-drop filter-group">
+					<button type="button" class="filter-drop-toggle" aria-expanded="false">
+						<span>Acessórios</span>
+						<img src="/images/next.png" class="filter-drop-arrow"></img>
+					</button>
+					<div class="filter-drop-content">
+						<label><input type="checkbox" name="accessory" value="fita"> Fita</label>
+						<label><input type="checkbox" name="accessory" value="pena"> Pena</label>
+						<label><input type="checkbox" name="accessory" value="broche"> Broche</label>
+						<label><input type="checkbox" name="accessory" value="flor"> Flor</label>
+						<label><input type="checkbox" name="accessory" value="laço"> Laço</label>
+						<label><input type="checkbox" name="accessory" value="outros"> Outros</label>
+					</div>
+				</div>
+				<div class="filter-drop filter-group">
+					<button type="button" class="filter-drop-toggle" aria-expanded="false">
+						<span>Cores</span>
+						<img src="/images/next.png" class="filter-drop-arrow"></img>
+					</button>
+					<div class="filter-drop-content">
+                        <select name="color">
+                            <option disabled selected value> -- select an option -- </option>
+                            <option>Preto</option>
+                            <option>Branco</option>
+                            <option>Marrom</option>
+                            <option>Cinza</option>
+                            <option>Vermelho</option>
+                            <option>Azul</option>
+                            <option>Verde</option>
+                            <option>Amarelo</option>
+                            <option>Outros</option>
+                        </select>
+					</div>
+				</div>
+				<button type="submit" style="width:100%;margin-top:1rem;">Filtrar</button>
+			</form>
+		</aside>
+		<main class="search-main">
+			<div class="results-header">
+				<span class="results-title">Resultados da Busca</span>
+				<span class="results-count">8 produtos encontrados</span>
+			</div>
+			<section class="results-grid">
+				<a href="/produto"><picture class="card">
+                    <img src="/images/card-placeholder.png" alt="Chapéu 1">
+                    <div class="card-title">Chapéu Fedora</div>
+                    <div class="card-description">Clássico, elegante, cor preta</div>
+                    <div class="card-meta">Categoria: Formais</div>
+                </picture></a>
+                <a href="/produto"><picture class="card">
+                    <img src="/images/card-placeholder.png" alt="Chapéu 2">
+                    <div class="card-title">Chapéu Panamá</div>
+                    <div class="card-description">Casual, leve, cor branca</div>
+                    <div class="card-meta">Categoria: Casuais</div>
+                </picture></a>
+                <a href="/produto"><picture class="card">
+                    <img src="/images/card-placeholder.png" alt="Chapéu 3">
+                    <div class="card-title">Chapéu Bucket</div>
+                    <div class="card-description">Esportivo, resistente, cor azul</div>
+                    <div class="card-meta">Categoria: Esportivos</div>
+                    </picture></a>
+                <a href="/produto"><picture class="card">
+                    <img src="/images/card-placeholder.png" alt="Chapéu 4">
+                    <div class="card-title">Chapéu Côco</div>
+                    <div class="card-description">Tradicional, rígido, cor marrom</div>
+                    <div class="card-meta">Categoria: Tradicionais</div>
+                </picture></a>
+				<a href="/produto"><picture class="card">
+                    <img src="/images/card-placeholder.png" alt="Chapéu 5">
+                    <div class="card-title">Chapéu Chef</div>
+                    <div class="card-description">Profissional, alto, cor branca</div>
+                    <div class="card-meta">Categoria: Profissionais</div>
+                </picture></a>
+                <a href="/produto"><picture class="card">
+                    <img src="/images/card-placeholder.png" alt="Chapéu 6">
+                    <div class="card-title">Chapéu de Bruxa</div>
+                    <div class="card-description">Temático, divertido, cor preta</div>
+                    <div class="card-meta">Categoria: Temáticos</div>
+                </picture></a>
+                <a href="/produto"><picture class="card">
+                    <img src="/images/card-placeholder.png" alt="Chapéu 7">
+                    <div class="card-title">Chapéu Cloche</div>
+                    <div class="card-description">Feminino, vintage, cor vermelha</div>
+                    <div class="card-meta">Categoria: Femininos</div>
+				</a>
+			</section>
+		</main>
+	</div>
+	<footer>
+		<figure class="logo">
+			<a href="/"><img src="/images/logo.png" alt="Logo - O Senhor dos Chapéis"></a>
+		</figure>
+		<a href="/sobre-nos"><span class="sobre-nos">Sobre nós</span></a>
+	</footer>
+	<script>
+        // Interactive filter: highlight checked labels
+        document.querySelectorAll('.filter-group input[type="checkbox"]').forEach(function(checkbox) {
+            checkbox.addEventListener('change', function() {
+                if (this.checked) {
+                    this.parentElement.style.fontWeight = 'bold';
+                    this.parentElement.style.color = '#2e4637';
+                } else {
+                    this.parentElement.style.fontWeight = '';
+                    this.parentElement.style.color = '';
+                }
+            });
+        });
+        // filter-drop toggling for filter groups (collapsed by default)
+        document.querySelectorAll('.filter-drop-toggle').forEach(function(toggle) {
+            toggle.addEventListener('click', function() {
+                var expanded = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', !expanded);
+                var content = this.parentElement.querySelector('.filter-drop-content');
+                if (content) {
+                    content.classList.toggle('open');
+                }
+            });
+        });
+	</script>
+</body>
+</html>
