@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3b708ad-f732-4c1f-8780-378962fb79ce" name="Changes" comment="🔨 Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_chapeu_bruxa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_chapeu_bucket.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_chapeu_chef.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_chapeu_cloche.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_chapeu_coco.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_chapeu_fedora.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_chapeu_panama.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/item_colecao_bucket.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/item_colecao_viseira.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/revendedor_amazon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/revendedor_mercado_livre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/revendedor_renner.png" afterDir="false" />
+    <list default="true" id="c3b708ad-f732-4c1f-8780-378962fb79ce" name="Changes" comment="💄 UI Update - Adicionados placeholders verossímios">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/background-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/item_colecao_floppy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/produto_panama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/produto_panama_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/produto_panama_3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/colecao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/colecao.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/produto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/produto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/produto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/colecao.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/colecao.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,10 +85,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\static\images" />
+      <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\static" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\resources\templates" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\src\main\java\br\ufms\facom\progweb\chapeleiroweb\view" />
       <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb\.idea" />
-      <recent name="C:\Users\Henrique\Documents\UFMS\Prog Web\chapeleiroweb" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -145,12 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764128678099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="💄 UI Update - Adicionados placeholders verossímios">
+      <option name="closed" value="true" />
+      <created>1764135430945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764135430945</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Atualização de diretório/arquivo - Uso oficial do CSS do static resources" />
     <MESSAGE value=" Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas." />
-    <option name="LAST_COMMIT_MESSAGE" value=" Adição de Scripts (Caminhos Web) - Criação e configuração de controllers para routing de páginas." />
+    <MESSAGE value=" UI Update - Adicionados placeholders verossímios" />
+    <option name="LAST_COMMIT_MESSAGE" value=" UI Update - Adicionados placeholders verossímios" />
   </component>
 </project>
