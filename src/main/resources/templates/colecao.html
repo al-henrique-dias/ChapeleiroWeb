@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coleção de Verão - O Senhor dos Chapéis</title>
+        <link rel="stylesheet" href="/style.css"/>
+    </head>
+    <body>
+        <header>
+            <figure class="logo">
+                <a href="/"
+                    ><img
+                        src="/images/logo.png"
+                        alt="Logo - O Senhor dos Chapéis"
+                /></a>
+            </figure>
+            <form method="get" class="search-box">
+                <input
+                    name="search"
+                    type="text"
+                    placeholder="buscar"
+                    id="search-box"
+                    class="search-box"
+                />
+                <button type="submit">
+                    <img
+                        src="/images/lupa.png"
+                        alt="search-icon"
+                        class="search-icon"
+                        height="32px"
+                        width="32px"
+                    />
+                </button>
+            </form>
+        </header>
+
+        <!-- MAIN: Conteúdo principal da coleção -->
+        <main class="collection-main">
+            <!-- Banner de Propaganda da Coleção -->
+            <figure
+                class="collection-banner"
+                style="
+                    margin-bottom: 2rem;
+                    overflow: hidden;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                "
+            >
+                <!-- Placeholder para a imagem do banner. Use uma imagem com foco em praia, sol, etc. -->
+                <img
+                    src="https://placehold.co/1200x300/e6e6fa/333333?text=Cole%C3%A7%C3%A3o+Ver%C3%A3o+2026"
+                    alt="Banner de propaganda da Coleção de Verão"
+                    style="width: 100%; height: auto; display: block"
+                />
+                <figcaption style="display: none">
+                    Chapéus de Verão: Estilo e Proteção ao Sol.
+                </figcaption>
+            </figure>
+
+            <!-- Título da Coleção -->
+            <h1
+                style="
+                    text-align: center;
+                    font-size: 3rem;
+                    color: #ff6347;
+                    margin-bottom: 1.5rem;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                "
+            >
+                Coleção de Verão
+            </h1>
+
+            <!-- Descrição da Coleção (opcional, mas bom para contexto) -->
+            <p
+                style="
+                    text-align: center;
+                    max-width: 800px;
+                    margin: 0 auto 3rem;
+                    color: #555;
+                "
+            >
+                Descubra a nossa seleção de chapéus leves, arejados e cheios de
+                estilo para os dias ensolarados. De palha elegante a tecidos
+                casuais, encontre o par perfeito para a sua próxima aventura de
+                verão.
+            </p>
+
+            <!-- SECTION: Catálogo de Chapéus de Verão -->
+            <section
+                class="card-box"
+                style="
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 20px;
+                    padding: 1rem;
+                "
+            >
+                <!-- Cartão 1: Chapéu Panamá (clássico de verão) -->
+                <a
+                    href="/produto"
+                    style="text-decoration: none; color: inherit"
+                >
+                    <picture
+                        class="card"
+                        style="
+                            border: 1px solid #ddd;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            transition: transform 0.3s ease;
+                        "
+                    >
+                        <img
+                            src="https://placehold.co/300x300/ffe4b5/333333?text=Panam%C3%A1"
+                            alt="Chapéu Panamá de Palha"
+                            style="width: 100%; height: auto"
+                        />
+                        <div style="padding: 15px; text-align: center">
+                            <div
+                                class="card-title"
+                                style="
+                                    font-weight: bold;
+                                    font-size: 1.1em;
+                                    color: #333;
+                                "
+                            >
+                                Chapéu Panamá Clássico
+                            </div>
+                            <div
+                                class="card-description"
+                                style="color: #666; font-size: 0.9em"
+                            >
+                                Palha Toquilla autêntica, Leve e Fresco.
+                            </div>
+                        </div>
+                    </picture>
+                </a>
+
+                <!-- Cartão 2: Viseira Esportiva -->
+                <a
+                    href="/produto"
+                    style="text-decoration: none; color: inherit"
+                >
+                    <picture
+                        class="card"
+                        style="
+                            border: 1px solid #ddd;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            transition: transform 0.3s ease;
+                        "
+                    >
+                        <img
+                            src="https://placehold.co/300x300/a9e6e6/333333?text=Viseira"
+                            alt="Viseira Esportiva Azul"
+                            style="width: 100%; height: auto"
+                        />
+                        <div style="padding: 15px; text-align: center">
+                            <div
+                                class="card-title"
+                                style="
+                                    font-weight: bold;
+                                    font-size: 1.1em;
+                                    color: #333;
+                                "
+                            >
+                                Viseira Performance
+                            </div>
+                            <div
+                                class="card-description"
+                                style="color: #666; font-size: 0.9em"
+                            >
+                                Tecido Dry-fit, ideal para exercícios.
+                            </div>
+                        </div>
+                    </picture>
+                </a>
+
+                <!-- Cartão 3: Chapéu Floppy (praia) -->
+                <a
+                    href="/produto"
+                    style="text-decoration: none; color: inherit"
+                >
+                    <picture
+                        class="card"
+                        style="
+                            border: 1px solid #ddd;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            transition: transform 0.3s ease;
+                        "
+                    >
+                        <img
+                            src="https://placehold.co/300x300/f08080/333333?text=Floppy"
+                            alt="Chapéu Floppy de Aba Larga"
+                            style="width: 100%; height: auto"
+                        />
+                        <div style="padding: 15px; text-align: center">
+                            <div
+                                class="card-title"
+                                style="
+                                    font-weight: bold;
+                                    font-size: 1.1em;
+                                    color: #333;
+                                "
+                            >
+                                Chapéu Floppy de Praia
+                            </div>
+                            <div
+                                class="card-description"
+                                style="color: #666; font-size: 0.9em"
+                            >
+                                Aba extra larga, máxima proteção UV.
+                            </div>
+                        </div>
+                    </picture>
+                </a>
+
+                <!-- Cartão 4: Chapéu Bucket com Estampa Tropical -->
+                <a
+                    href="/produto"
+                    style="text-decoration: none; color: inherit"
+                >
+                    <picture
+                        class="card"
+                        style="
+                            border: 1px solid #ddd;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            transition: transform 0.3s ease;
+                        "
+                    >
+                        <img
+                            src="https://placehold.co/300x300/98fb98/333333?text=Bucket"
+                            alt="Chapéu Bucket Estampa Tropical"
+                            style="width: 100%; height: auto"
+                        />
+                        <div style="padding: 15px; text-align: center">
+                            <div
+                                class="card-title"
+                                style="
+                                    font-weight: bold;
+                                    font-size: 1.1em;
+                                    color: #333;
+                                "
+                            >
+                                Bucket Tropical
+                            </div>
+                            <div
+                                class="card-description"
+                                style="color: #666; font-size: 0.9em"
+                            >
+                                Estampa vibrante, 100% algodão.
+                            </div>
+                        </div>
+                    </picture>
+                </a>
+            </section>
+        </main>
+
+        <!-- FOOTER: Estrutura idêntica às outras páginas -->
+        <footer>
+            <figure class="logo">
+                <a href="/"
+                    ><img
+                        src="/images/logo.png"
+                        alt="Logo - O Senhor dos Chapéis"
+                /></a>
+            </figure>
+            <a href="/sobre-nos"><span class="sobre-nos">Sobre nós</span></a>
+        </footer>
+    </body>
+</html>
