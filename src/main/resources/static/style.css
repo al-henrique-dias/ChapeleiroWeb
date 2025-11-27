@@ -1,18 +1,4 @@
-:root {
-    /* Cores da Marca */
-    --cor-primaria: #2d2f32;    /* Chumbo Escuro (Texto, Bordas Fortes) */
-    --cor-destaque: #b29b70;    /* Dourado Envelhecido (Ações, Detalhes) */
-
-    /* Variações e Apoio */
-    --cor-fundo: #f4f1e6;       /* Creme (Fundo Geral) */
-    --cor-fundo-header: #e4e1b7; /* Fundo do Header original */
-    --cor-fundo-claro: #ffffff;
-    --cor-sombra: rgba(45, 47, 50, 0.15);
-
-    /* Cores de Hover/Interação */
-    --cor-hover-btn: #2d2f32;
-    --cor-hover-text: #b29b70;
-}
+/* Custom styled checkboxes */
 
 html, body{max-width: 100vw; max-height: 100vw;}
 body{
@@ -32,113 +18,38 @@ body{
     color: #2e4637;
 }
 
-header {
-    /* 1. CONFIGURAÇÕES DE POSICIONAMENTO */
-    /* Ajuste as margens externas da página conforme seu gosto */
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-
-    /* Padding interno: define a distância do conteúdo para a borda */
-    /* Aumentamos na direita para a busca não colar, reduzimos na esquerda para a logo */
-
-
+header{
+    margin: 0 0 1rem 0;
+    border: 0;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    max-width: 100vw;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap; /* Melhor 'nowrap' para o header não quebrar linha fácil */
-
-    /* ALTERADO: Space-between joga a Logo p/ Esquerda e Busca p/ Direita */
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
-
-    /* Removemos o background e bordas daqui, pois eles irão para as camadas virtuais */
-    background: transparent;
-    border: none;
-    box-shadow: none;
-
-    /* IMPORTANTE: Permite que a imagem "vaze" para fora da caixa */
-    overflow: visible;
-
-    position: relative;
-    z-index: 0;
-}
-
-/* CAMADA 1: A Textura Externa (Fundo Rotacionado) */
-header::before {
-
-    content: "";
-    position: absolute;
-
-    /* Aumentamos a área para criar a "borda" externa */
-    width: calc(100% + 40px);
-    height: calc(100% + 40px);
-
-    /* Sua imagem de fundo */
-    background-image: url('/images/background-header.jpg');
-    background-repeat: repeat;
-    background-position: center;
-
-    /* A rotação estilosa */
-    transform: rotate(-180deg);
-
-    z-index: -2;
-}
-
-/* CAMADA 2: O Fundo Sólido Interno (Onde fica o texto) */
-header::after {
-    content: "";
-    position: absolute;
-
-    /* Ocupa exatamente o espaço do header original */
-    inset: 0;
-
-    /* A cor sólida creme da sua paleta */
     background-color: #e4e1b7;
-
-    /* Borda desenhada à mão (mantendo seu estilo anterior) */
-    border-radius: 120px 6px 6px 120px;
-    border: 4px solid rgba(178, 155, 112, 0.5);
-
-    /* Fica na frente da textura (-2), mas atrás do texto (0) */
-    z-index: -1;
+    box-shadow: 0 2px 8px rgba(46, 70, 55, 0.07);
 }
 
-.logo {
-    /* TRUQUE: Margem negativa na esquerda para "puxar" a logo contra a borda */
-    /* Ajuste esse valor (-20px, -30px) até ficar exatamente onde você quer */
-    margin-left: 8px;
-
-    /* Empurra a caixa de busca para o outro lado se necessário */
-    margin-right: auto;
-
-    margin-top: 0;
-    margin-bottom: 0;
-
-    padding: 0.4rem; /* Reduzi um pouco o padding interno da logo */
-
-    /* Mantém o tamanho */
+.logo{
+    margin: 0 1rem 0 0;
+    border: 0;
+    padding: 0.4rem;
     height: 200px;
     width: 200px;
-
-    /* Estilo do círculo */
-    background-color: rgba(243, 239, 216, 0.5);
+    background-color: #f3efd828; /* lighter pastel */
     border-radius: 50%;
-
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza a imagem dentro da bola */
-
-    box-shadow: 0 1px 6px var(--cor-sombra);
-    z-index: 2; /* Garante que a logo fique ACIMA da borda do header */
+    justify-content: center;
+    box-shadow: 0 1px 6px rgba(46, 70, 55, 0.08);
 }
 
-/* Garante que a imagem dentro da logo respeite o círculo */
-.logo img {
-    height: 100%; /* Adapta ao container pai (.logo) */
-    width: 100%;
-    object-fit: contain; /* Garante que a imagem não distorça */
-    border-radius: 50%;
+.logo img{
+    height: 200px;
+    width: 200px;
 }
 
 .search-box{
@@ -294,7 +205,7 @@ footer{
     justify-content: center;
     gap: 1em;
     padding-right: 1em;
-    animation: spin 32s infinite linear;
+    animation: spin 24s infinite linear;
 }
 
 .carousel-item{
@@ -310,13 +221,9 @@ footer{
     background-color: #a29e82;
 }
 
-.carousel-item img{
-    border-radius: 8px;
-}
-
 @keyframes spin{
     from{translate: 0;}
-    to{translate: -190%;}
+    to{translate: -100%;}
 }
 
 .card-box{
@@ -371,7 +278,7 @@ footer{
     height: 180px;
     object-fit: cover;
     margin-bottom: 1rem;
-    background: #fff;
+    background: #a29e82;
 }
 .card-title {
     font-size: 1.2rem;
@@ -476,8 +383,6 @@ footer{
 }
 
 .product-image img{
-    height: 512px;
-    width: 512px;
     border-radius: 8px;
 }
 
