@@ -383,6 +383,8 @@ footer{
 }
 
 .product-image img{
+    height: 512px;
+    width: 512px;
     border-radius: 8px;
 }
 
